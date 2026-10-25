@@ -35,5 +35,5 @@
 \contentsline {subsection}{\numberline {6.4}Limitations}{9}{subsection.32}%
 \contentsline {section}{\numberline {7}Conclusion}{10}{section.33}%
 \contentsline {section}{References}{11}{section.33}%
-\contentsline {section}{List of Permitted Aids and Documentation}{12}{section.33}%
-\contentsline {section}{Appendix (if applicable)}{16}{table.2}%
+\contentsline {section}{List of Permitted Aids and Documentation}{13}{section.33}%
+\contentsline {section}{Appendix (if applicable)}{17}{table.2}%

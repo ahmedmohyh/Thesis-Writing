@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.1)  25 OCT 2026 19:18
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.1)  25 OCT 2026 20:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1080,14 +1080,14 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 176.
 Package biblatex Info: Reference segment=0 on input line 176.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1190,71 +1190,7 @@ File: images/Footer Thesis Template.png Graphic file (type bmp)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [5] (./frontmatter/abbreviations.tex) [6] (./chapters/01_introduction.tex
-
-LaTeX Warning: Citation 'newzoo2024' on page 1 undefined on input line 1.
-
-
-LaTeX Warning: Citation 'inbook' on page 1 undefined on input line 1.
-
-
-LaTeX Warning: Citation 'Moneta2012' on page 1 undefined on input line 1.
-
-
-LaTeX Warning: Citation 'riotgames_lol' on page 1 undefined on input line 1.
-
-
-LaTeX Warning: Citation 'gong2020league' on page 1 undefined on input line 1.
-
-
-LaTeX Warning: Citation '10.1145/3549506' on page 1 undefined on input line 1.
-
-
-LaTeX Warning: Citation '9296229' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation 'kutt2022biraffe2' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation 'irshad2023wearable' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation 'ubt_eref88160' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation 'ubt_eref88160' on page 1 undefined on input line 5.
-
-
-LaTeX Warning: Citation '9296229' on page 1 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'banyai2019psychology' on page 1 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'poulus2021determinants' on page 1 undefined on input line 5.
-
-
-LaTeX Warning: Citation '10.1145/3549506' on page 1 undefined on input line 5.
-
-
-Overfull \hbox (101.1182pt too wide) in paragraph at lines 5--6
-\TU/Verdana(0)/m/n/10 enterprise-focused approaches ([]; []; []). 
- []
-
-[1]
-
-LaTeX Warning: Citation '9296229' on page 2 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'irshad2023wearable' on page 2 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'recker2021researchmethods' on page 2 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'delveholempaecher2024openaxialselective' on page 2 undefined on input line 15.
-
-) [2] (./chapters/02_foundations.tex
+ [5] (./frontmatter/abbreviations.tex) [6] (./chapters/01_introduction.tex [1]) [2] (./chapters/02_foundations.tex
 File: images/ude_figure_example.png Graphic file (type bmp)
 <images/ude_figure_example.png>
  [3
@@ -1321,11 +1257,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--245
 
 ] (./chapters/07_conclusion.tex) [10
 
-]
-
-LaTeX Warning: Empty bibliography on input line 275.
-
-[11]
+] [11] [12]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: custom
@@ -1358,12 +1290,12 @@ LaTeX Warning: Empty bibliography on input line 275.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./appendix/permittedAids.tex [12
+ (./appendix/permittedAids.tex [13
 
-] [13] [14]) [15] (./appendix/appendix.tex) [16] (./appendix/declaration.tex
+] [14] [15]) [16] (./appendix/appendix.tex) [17] (./appendix/declaration.tex
 File: images/declaration-logo.png Graphic file (type bmp)
 <images/declaration-logo.png>
-) [17
+) [18
 
 ] (./main.aux)
  ***********
@@ -1386,12 +1318,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36605 strings out of 468174
- 754303 string characters out of 5436828
- 1787835 words of memory out of 5000000
- 64753 multiletter control sequences out of 15000+600000
+ 36750 strings out of 468174
+ 759260 string characters out of 5436828
+ 1788482 words of memory out of 5000000
+ 64896 multiletter control sequences out of 15000+600000
  629268 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,13n,108p,1573b,5237s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,108p,1573b,5642s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (24 pages).
+Output written on main.pdf (25 pages).

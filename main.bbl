@@ -1,0 +1,1477 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{ubt_eref88160}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5f48240790d61274633e503c74dc3b9d}{%
+           family={Adam},
+           familyi={A\bibinitperiod},
+           given={Marc\bibnamedelimb T.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06b262577b7e85af1e02f12c74d4207b}{%
+           family={Bonenberger},
+           familyi={B\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5af1560667587db0eef57323f536566d}{%
+           family={Gimpel},
+           familyi={G\bibinitperiod},
+           given={Henner},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91dedbb5d37e3dce50a0137fce9c8cd7}{%
+           family={Lanzl},
+           familyi={L\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3da7ecd1162aaa3122fe99dcb668d368}
+      \strng{fullhash}{93135cb6831f89cf6b1b47c802be4290}
+      \strng{fullhashraw}{93135cb6831f89cf6b1b47c802be4290}
+      \strng{bibnamehash}{93135cb6831f89cf6b1b47c802be4290}
+      \strng{authorbibnamehash}{93135cb6831f89cf6b1b47c802be4290}
+      \strng{authornamehash}{3da7ecd1162aaa3122fe99dcb668d368}
+      \strng{authorfullhash}{93135cb6831f89cf6b1b47c802be4290}
+      \strng{authorfullhashraw}{93135cb6831f89cf6b1b47c802be4290}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1536-9323}
+      \field{journaltitle}{Journal of the Association for Information Systems}
+      \field{number}{4}
+      \field{title}{Human-Centered Design and Evaluation of a NeuroIS Tool for Flow Support}
+      \field{volume}{25}
+      \field{year}{2024}
+      \field{pages}{936\bibrangedash 961}
+      \range{pages}{26}
+      \verb{urlraw}
+      \verb https://eref.uni-bayreuth.de/id/eprint/88160/
+      \endverb
+      \verb{url}
+      \verb https://eref.uni-bayreuth.de/id/eprint/88160/
+      \endverb
+      \keyw{Design Science Research; Flow; IT-Mediated Interruptions; NeuroIS}
+    \endentry
+    \entry{banyai2019psychology}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e283a7413b97af785363840352b06e60}{%
+           family={Bányai},
+           familyi={B\bibinitperiod},
+           given={Fanni},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c20de3bbdda33b7031f1dfb71ae29d2}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={Mark\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09ad8c3e131bf098f64b4fe3a3f57139}{%
+           family={Király},
+           familyi={K\bibinitperiod},
+           given={Orsolya},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac81f10bf899f1df385ef94a6402cec7}{%
+           family={Demetrovics},
+           familyi={D\bibinitperiod},
+           given={Zsolt},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{df7d1e3c1c7d5ece56678817f9d63d91}
+      \strng{fullhash}{23b8e7c237972408b564e319b4a47d2a}
+      \strng{fullhashraw}{23b8e7c237972408b564e319b4a47d2a}
+      \strng{bibnamehash}{23b8e7c237972408b564e319b4a47d2a}
+      \strng{authorbibnamehash}{23b8e7c237972408b564e319b4a47d2a}
+      \strng{authornamehash}{df7d1e3c1c7d5ece56678817f9d63d91}
+      \strng{authorfullhash}{23b8e7c237972408b564e319b4a47d2a}
+      \strng{authorfullhashraw}{23b8e7c237972408b564e319b4a47d2a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Gambling Studies}
+      \field{number}{2}
+      \field{title}{The psychology of esports: A systematic literature review}
+      \field{volume}{35}
+      \field{year}{2019}
+      \field{pages}{351\bibrangedash 365}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s10899-018-9763-1
+      \endverb
+    \endentry
+    \entry{inbook}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4102f9749c0a86a4a970e9b54bfb1b29}{%
+           family={Csikszentmihalyi},
+           familyi={C\bibinitperiod},
+           given={Mihaly},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{fullhash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{fullhashraw}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{bibnamehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authorbibnamehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authornamehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authorfullhash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authorfullhashraw}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Flow: The Psychology of Optimal Experience}
+      \field{year}{1975}
+    \endentry
+    \entry{delveholempaecher2024openaxialselective}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7dd71b250fdcdbb0732d0866c44bdfba}{%
+           family={Delve},
+           familyi={D\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0,
+           suffix={Ho},
+           suffixi={H\bibinitperiod},
+           suffixun=0}}%
+        {{un=0,uniquepart=base,hash=a0f1df9972668df1b8b876754d4812ff}{%
+           family={Limpaecher},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Practical Guide to Grounded Theory}%
+      }
+      \strng{namehash}{df0c2827293c97b872806e6937101ac2}
+      \strng{fullhash}{df0c2827293c97b872806e6937101ac2}
+      \strng{fullhashraw}{df0c2827293c97b872806e6937101ac2}
+      \strng{bibnamehash}{df0c2827293c97b872806e6937101ac2}
+      \strng{authorbibnamehash}{df0c2827293c97b872806e6937101ac2}
+      \strng{authornamehash}{df0c2827293c97b872806e6937101ac2}
+      \strng{authorfullhash}{df0c2827293c97b872806e6937101ac2}
+      \strng{authorfullhashraw}{df0c2827293c97b872806e6937101ac2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Open, Axial, and Selective Coding in Qualitative Research: A Practical Guide}
+      \field{urlday}{7}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://delvetool.com/blog/openaxialselective
+      \endverb
+      \verb{url}
+      \verb https://delvetool.com/blog/openaxialselective
+      \endverb
+    \endentry
+    \entry{gong2020league}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c87ff610a94122a4cfffe5fd88b4d874}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{fullhash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{fullhashraw}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{bibnamehash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{authorbibnamehash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{authornamehash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{authorfullhash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{authorfullhashraw}{dfc825333ecbad639e836c2ccd35da87}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2020 International Conference on Computing and Data Science (CDS)}
+      \field{title}{League of Legends: A Study on the Ranking and Matchmaking System}
+      \field{year}{2020}
+      \field{pages}{245\bibrangedash 250}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CDS49703.2020.00056
+      \endverb
+    \endentry
+    \entry{irshad2023wearable}{article}{}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=6036f44a79aac9539c65fa245ab93801}{%
+           family={Irshad},
+           familyi={I\bibinitperiod},
+           given={Muhammad\bibnamedelima Tausif},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd4da60690bc4ee35eeaaf99b908c1d9}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c72da2fbdfd1862d64487d297d4348b}{%
+           family={Nisar},
+           familyi={N\bibinitperiod},
+           given={Muhammad\bibnamedelima Adeel},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8582a9a19f3c3afe4a93ba5a25b27fc2}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xinyu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e137e4aadb0a1488014f9df4a0fe7ae3}{%
+           family={Buss},
+           familyi={B\bibinitperiod},
+           given={Martje},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ad8403f3c8a8348a0c77cf76072d8ac}{%
+           family={Kloep},
+           familyi={K\bibinitperiod},
+           given={Leonie},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd828c8edda3a9364f94023411a3d57d}{%
+           family={Peifer},
+           familyi={P\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f61eb8f60c66358c27a97a6230d60506}{%
+           family={Kozusznik},
+           familyi={K\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b25333641707413c1cfced6fc08ad867}{%
+           family={Pollak},
+           familyi={P\bibinitperiod},
+           given={Anita},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebde18171ea1cb2d9b09cea636cba456}{%
+           family={Pyszka},
+           familyi={P\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c301d5393f90c5c9f9c96dbee6995448}{%
+           family={Flak},
+           familyi={F\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85979de2752376592d5547d712c5425f}{%
+           family={Grzegorzek},
+           familyi={G\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64e9908d0608a1a30ace5401a6a1bb14}
+      \strng{fullhash}{0ccd21907411d0e1abebb4b24653a693}
+      \strng{fullhashraw}{0ccd21907411d0e1abebb4b24653a693}
+      \strng{bibnamehash}{0ccd21907411d0e1abebb4b24653a693}
+      \strng{authorbibnamehash}{0ccd21907411d0e1abebb4b24653a693}
+      \strng{authornamehash}{64e9908d0608a1a30ace5401a6a1bb14}
+      \strng{authorfullhash}{0ccd21907411d0e1abebb4b24653a693}
+      \strng{authorfullhashraw}{0ccd21907411d0e1abebb4b24653a693}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{title}{Wearable-based human flow experience recognition enhanced by transfer learning methods using emotion data}
+      \field{volume}{166}
+      \field{year}{2023}
+      \field{pages}{107489}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compbiomed.2023.107489
+      \endverb
+    \endentry
+    \entry{kutt2022biraffe2}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=35fac8a70ff6783cd16356aec434a228}{%
+           family={Kutt},
+           familyi={K\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ec73f197f58c4d9a4e146770e37e8bc}{%
+           family={Drążyk},
+           familyi={D\bibinitperiod},
+           given={Dominika},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8530dda12d3a0d162bb28565af0e2b94}{%
+           family={Żuchowska},
+           familyi={Ż\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4ebde2022e2d5580e1829bcc749d1a0}{%
+           family={Szelążek},
+           familyi={S\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0b76bda8874efc8e04daf24be11edf9}{%
+           family={Bobek},
+           familyi={B\bibinitperiod},
+           given={Szymon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=409b560778b72b867f55a6c5467c49b4}{%
+           family={Nalepa},
+           familyi={N\bibinitperiod},
+           given={Grzegorz\bibnamedelima J},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{1cf5ac0b34d0085bbb9b790adb5b475e}
+      \strng{fullhash}{61cc6af536f69734bef2698a9fde9102}
+      \strng{fullhashraw}{61cc6af536f69734bef2698a9fde9102}
+      \strng{bibnamehash}{61cc6af536f69734bef2698a9fde9102}
+      \strng{authorbibnamehash}{61cc6af536f69734bef2698a9fde9102}
+      \strng{authornamehash}{1cf5ac0b34d0085bbb9b790adb5b475e}
+      \strng{authorfullhash}{61cc6af536f69734bef2698a9fde9102}
+      \strng{authorfullhashraw}{61cc6af536f69734bef2698a9fde9102}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Data}
+      \field{number}{1}
+      \field{title}{{BIRAFFE2}, a multimodal dataset for emotion-based personalization in rich affective game environments}
+      \field{volume}{9}
+      \field{year}{2022}
+      \field{pages}{279}
+      \range{pages}{1}
+    \endentry
+    \entry{Moneta2012}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0288c3ee8bf6aefbd6991596717aa81f}{%
+           family={Moneta},
+           familyi={M\bibinitperiod},
+           given={Giovanni\bibnamedelima B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c8a020b302e4747a207a6c24ba589d28}{%
+           family={Engeser},
+           familyi={E\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{fullhash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{fullhashraw}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{bibnamehash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{authorbibnamehash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{authornamehash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{authorfullhash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{authorfullhashraw}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{editorbibnamehash}{c8a020b302e4747a207a6c24ba589d28}
+      \strng{editornamehash}{c8a020b302e4747a207a6c24ba589d28}
+      \strng{editorfullhash}{c8a020b302e4747a207a6c24ba589d28}
+      \strng{editorfullhashraw}{c8a020b302e4747a207a6c24ba589d28}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter introduces in chronological order the three main measurement methods--the flow questionnaire, the experience sampling method, and the standardized scales of the componential approach--that researchers developed and used in conducting research on the flow state. Each measurement method and underlying conceptualization is explained, and its strengths and limitations are then discussed in relation to the other measurement methods and associated conceptualizations. The analysis reveals that, although the concept of flow remained stable since its inception, the models of flow that researchers developed in conjunction with the measurement methods changed substantially over time. Moreover, the findings obtained by applying the various measurement methods led to corroborations and disconfirmations of the underlying models and hence provided indications on how to interpret and possibly modify flow theory. The final section outlines new directions for developing more valid and useful measurement methods that can help to advance the understanding of flow, its antecedents, and its consequences.}
+      \field{booktitle}{Advances in Flow Research}
+      \field{isbn}{978-1-4614-2359-1}
+      \field{title}{On the Measurement and Conceptualization of Flow}
+      \field{year}{2012}
+      \field{pages}{23\bibrangedash 50}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/978-1-4614-2359-1_2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-1-4614-2359-1_2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-1-4614-2359-1_2
+      \endverb
+    \endentry
+    \entry{newzoo2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c854959b07079bcbe0eaf6562061aa4}{%
+           family={{Newzoo}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Newzoo}%
+      }
+      \strng{namehash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{fullhash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{fullhashraw}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{bibnamehash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{authorbibnamehash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{authornamehash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{authorfullhash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{authorfullhashraw}{4c854959b07079bcbe0eaf6562061aa4}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global Esports \& Live Streaming Market Report 2024}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://newzoo.com/resources/blog/esports-market-trends-2024
+      \endverb
+      \verb{url}
+      \verb https://newzoo.com/resources/blog/esports-market-trends-2024
+      \endverb
+    \endentry
+    \entry{poulus2021determinants}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1f3ee3547c604104ae7eac68a2582d76}{%
+           family={Poulus},
+           familyi={P\bibinitperiod},
+           given={Dylan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e70f34c94684f67a81ae25f44af2aa4}{%
+           family={Coulter},
+           familyi={C\bibinitperiod},
+           given={Tristan},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=836711fd340cb99cd81df4497492eb45}{%
+           family={Trotter},
+           familyi={T\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=daed5e1504f9e2368911a2e1812cbf01}{%
+           family={Polman},
+           familyi={P\bibinitperiod},
+           given={Remco},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bd73a8e0afe24cffa37d46bd0b8b6ab5}
+      \strng{fullhash}{fcbec4aafb926e89b45d04b8f143d20f}
+      \strng{fullhashraw}{fcbec4aafb926e89b45d04b8f143d20f}
+      \strng{bibnamehash}{fcbec4aafb926e89b45d04b8f143d20f}
+      \strng{authorbibnamehash}{fcbec4aafb926e89b45d04b8f143d20f}
+      \strng{authornamehash}{bd73a8e0afe24cffa37d46bd0b8b6ab5}
+      \strng{authorfullhash}{fcbec4aafb926e89b45d04b8f143d20f}
+      \strng{authorfullhashraw}{fcbec4aafb926e89b45d04b8f143d20f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Publication details to be added (e.g., journal/conference, volume/issue, pages, DOI/URL).}
+      \field{title}{A Qualitative Analysis of the Perceived Determinants of Success in Professional Esports Athletes}
+      \field{year}{2021}
+    \endentry
+    \entry{recker2021researchmethods}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=604e15fd1714275673736d598c9e7e89}{%
+           family={Recker},
+           familyi={R\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{604e15fd1714275673736d598c9e7e89}
+      \strng{fullhash}{604e15fd1714275673736d598c9e7e89}
+      \strng{fullhashraw}{604e15fd1714275673736d598c9e7e89}
+      \strng{bibnamehash}{604e15fd1714275673736d598c9e7e89}
+      \strng{authorbibnamehash}{604e15fd1714275673736d598c9e7e89}
+      \strng{authornamehash}{604e15fd1714275673736d598c9e7e89}
+      \strng{authorfullhash}{604e15fd1714275673736d598c9e7e89}
+      \strng{authorfullhashraw}{604e15fd1714275673736d598c9e7e89}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Scientific Research in Information Systems: A Beginner's Guide}
+      \field{title}{Research Methods}
+      \field{year}{2021}
+      \field{pages}{87\bibrangedash 160}
+      \range{pages}{74}
+      \verb{doi}
+      \verb 10.1007/978-3-030-85436-2_5
+      \endverb
+    \endentry
+    \entry{10.1145/3549506}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9d5d5879548cf4c995a466a3100319be}{%
+           family={Rijnders},
+           familyi={R\bibinitperiod},
+           given={Frans},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=567c98f6363b20348575d7fd69276e19}{%
+           family={Wallner},
+           familyi={W\bibinitperiod},
+           given={Günter},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c1810c3f343d7ce2368fe1c14400c36}{%
+           family={Bernhaupt},
+           familyi={B\bibinitperiod},
+           given={Regina},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{ee9669cda2a312545b4c74a501ba007e}
+      \strng{fullhash}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \strng{fullhashraw}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \strng{bibnamehash}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \strng{authorbibnamehash}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \strng{authornamehash}{ee9669cda2a312545b4c74a501ba007e}
+      \strng{authorfullhash}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \strng{authorfullhashraw}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With competitive gaming on the rise, players have developed an increased interest in data-driven feedback of their in-game performance. In many cases, this feedback is presented visually post-play but live companions that provide real-time analytics are gaining more and more attention. However, the design of such systems poses different requirements which have been little explored from a scholarly point of view.In this paper, we report on a study of two visualizations - a physical and digital one - providing live feedback to League of Legends players designed based on a community survey (N= 175) and expert input. We further discuss results of a qualitative evaluation with 13 players and an expert, touch upon potential benefits and drawbacks of physical and digital implementations, and present derived design considerations and challenges for such real-time data visualizations, revolving around issues of information density, contextualization, representation, and a diverse range of user needs.}
+      \field{journaltitle}{Proc. ACM Hum.-Comput. Interact.}
+      \field{month}{10}
+      \field{number}{CHI PLAY}
+      \field{title}{Live Feedback for Training Through Real-Time Data Visualizations: A Study with League of Legends}
+      \field{volume}{6}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1145/3549506
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3549506
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3549506
+      \endverb
+      \keyw{training,gameplay visualization,data physicalization}
+    \endentry
+    \entry{riotgames_lol}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f57cf07c1856f8676e754198255ca3bf}{%
+           family={{Riot Games}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{fullhash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{fullhashraw}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{bibnamehash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{authorbibnamehash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{authornamehash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{authorfullhash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{authorfullhashraw}{f57cf07c1856f8676e754198255ca3bf}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Computer game}
+      \field{note}{Version 2026}
+      \field{title}{League of {Legends}}
+      \field{year}{2009}
+    \endentry
+    \entry{9296229}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=c49dc70bd1a54f5ab1df60699d45a35f}{%
+           family={Rissler},
+           familyi={R\bibinitperiod},
+           given={Raphael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=520f181099b8816c582041dd8e17a87c}{%
+           family={Nadj},
+           familyi={N\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a78b8391f1616d2c0f08cef893b7c85d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Maximilian\bibnamedelima X.},
+           giveni={M\bibinitperiod\bibinitdelim X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2e4a7e9429f0c99ffd78d210c7b0123}{%
+           family={Loewe},
+           familyi={L\bibinitperiod},
+           given={Nico},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8f274421904468e52a74762e8ca773d}{%
+           family={Knierim},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49b9d2bfb4f6405fb255c47831e440ec}{%
+           family={Maedche},
+           familyi={M\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8442d8a3b55a80653dd2a859e99e65f}
+      \strng{fullhash}{33b2086ffdc2a71dce5682ac07acb554}
+      \strng{fullhashraw}{33b2086ffdc2a71dce5682ac07acb554}
+      \strng{bibnamehash}{33b2086ffdc2a71dce5682ac07acb554}
+      \strng{authorbibnamehash}{33b2086ffdc2a71dce5682ac07acb554}
+      \strng{authornamehash}{a8442d8a3b55a80653dd2a859e99e65f}
+      \strng{authorfullhash}{33b2086ffdc2a71dce5682ac07acb554}
+      \strng{authorfullhashraw}{33b2086ffdc2a71dce5682ac07acb554}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Affective Computing}
+      \field{number}{1}
+      \field{title}{To Be or Not to Be in Flow at Work: Physiological Classification of Flow Using Machine Learning}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{463\bibrangedash 474}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TAFFC.2020.3045269
+      \endverb
+      \keyw{Heart rate variability;Physiology;Task analysis;Information systems;Real-time systems;Particle measurements;Current measurement;Flow;machine learning;heart rate variability (HRV);field study;lab experiment}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{ubt_eref88160}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5f48240790d61274633e503c74dc3b9d}{%
+           family={Adam},
+           familyi={A\bibinitperiod},
+           given={Marc\bibnamedelimb T.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06b262577b7e85af1e02f12c74d4207b}{%
+           family={Bonenberger},
+           familyi={B\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5af1560667587db0eef57323f536566d}{%
+           family={Gimpel},
+           familyi={G\bibinitperiod},
+           given={Henner},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91dedbb5d37e3dce50a0137fce9c8cd7}{%
+           family={Lanzl},
+           familyi={L\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3da7ecd1162aaa3122fe99dcb668d368}
+      \strng{fullhash}{93135cb6831f89cf6b1b47c802be4290}
+      \strng{fullhashraw}{93135cb6831f89cf6b1b47c802be4290}
+      \strng{bibnamehash}{93135cb6831f89cf6b1b47c802be4290}
+      \strng{authorbibnamehash}{93135cb6831f89cf6b1b47c802be4290}
+      \strng{authornamehash}{3da7ecd1162aaa3122fe99dcb668d368}
+      \strng{authorfullhash}{93135cb6831f89cf6b1b47c802be4290}
+      \strng{authorfullhashraw}{93135cb6831f89cf6b1b47c802be4290}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1536-9323}
+      \field{journaltitle}{Journal of the Association for Information Systems}
+      \field{number}{4}
+      \field{title}{Human-Centered Design and Evaluation of a NeuroIS Tool for Flow Support}
+      \field{volume}{25}
+      \field{year}{2024}
+      \field{pages}{936\bibrangedash 961}
+      \range{pages}{26}
+      \verb{urlraw}
+      \verb https://eref.uni-bayreuth.de/id/eprint/88160/
+      \endverb
+      \verb{url}
+      \verb https://eref.uni-bayreuth.de/id/eprint/88160/
+      \endverb
+      \keyw{Design Science Research; Flow; IT-Mediated Interruptions; NeuroIS}
+    \endentry
+    \entry{banyai2019psychology}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e283a7413b97af785363840352b06e60}{%
+           family={Bányai},
+           familyi={B\bibinitperiod},
+           given={Fanni},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c20de3bbdda33b7031f1dfb71ae29d2}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={Mark\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09ad8c3e131bf098f64b4fe3a3f57139}{%
+           family={Király},
+           familyi={K\bibinitperiod},
+           given={Orsolya},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac81f10bf899f1df385ef94a6402cec7}{%
+           family={Demetrovics},
+           familyi={D\bibinitperiod},
+           given={Zsolt},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{df7d1e3c1c7d5ece56678817f9d63d91}
+      \strng{fullhash}{23b8e7c237972408b564e319b4a47d2a}
+      \strng{fullhashraw}{23b8e7c237972408b564e319b4a47d2a}
+      \strng{bibnamehash}{23b8e7c237972408b564e319b4a47d2a}
+      \strng{authorbibnamehash}{23b8e7c237972408b564e319b4a47d2a}
+      \strng{authornamehash}{df7d1e3c1c7d5ece56678817f9d63d91}
+      \strng{authorfullhash}{23b8e7c237972408b564e319b4a47d2a}
+      \strng{authorfullhashraw}{23b8e7c237972408b564e319b4a47d2a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Gambling Studies}
+      \field{number}{2}
+      \field{title}{The psychology of esports: A systematic literature review}
+      \field{volume}{35}
+      \field{year}{2019}
+      \field{pages}{351\bibrangedash 365}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s10899-018-9763-1
+      \endverb
+    \endentry
+    \entry{inbook}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4102f9749c0a86a4a970e9b54bfb1b29}{%
+           family={Csikszentmihalyi},
+           familyi={C\bibinitperiod},
+           given={Mihaly},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{fullhash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{fullhashraw}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{bibnamehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authorbibnamehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authornamehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authorfullhash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authorfullhashraw}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Flow: The Psychology of Optimal Experience}
+      \field{year}{1975}
+    \endentry
+    \entry{delveholempaecher2024openaxialselective}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7dd71b250fdcdbb0732d0866c44bdfba}{%
+           family={Delve},
+           familyi={D\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0,
+           suffix={Ho},
+           suffixi={H\bibinitperiod},
+           suffixun=0}}%
+        {{un=0,uniquepart=base,hash=a0f1df9972668df1b8b876754d4812ff}{%
+           family={Limpaecher},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Practical Guide to Grounded Theory}%
+      }
+      \strng{namehash}{df0c2827293c97b872806e6937101ac2}
+      \strng{fullhash}{df0c2827293c97b872806e6937101ac2}
+      \strng{fullhashraw}{df0c2827293c97b872806e6937101ac2}
+      \strng{bibnamehash}{df0c2827293c97b872806e6937101ac2}
+      \strng{authorbibnamehash}{df0c2827293c97b872806e6937101ac2}
+      \strng{authornamehash}{df0c2827293c97b872806e6937101ac2}
+      \strng{authorfullhash}{df0c2827293c97b872806e6937101ac2}
+      \strng{authorfullhashraw}{df0c2827293c97b872806e6937101ac2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Open, Axial, and Selective Coding in Qualitative Research: A Practical Guide}
+      \field{urlday}{7}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://delvetool.com/blog/openaxialselective
+      \endverb
+      \verb{url}
+      \verb https://delvetool.com/blog/openaxialselective
+      \endverb
+    \endentry
+    \entry{gong2020league}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c87ff610a94122a4cfffe5fd88b4d874}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{fullhash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{fullhashraw}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{bibnamehash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{authorbibnamehash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{authornamehash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{authorfullhash}{dfc825333ecbad639e836c2ccd35da87}
+      \strng{authorfullhashraw}{dfc825333ecbad639e836c2ccd35da87}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2020 International Conference on Computing and Data Science (CDS)}
+      \field{title}{League of Legends: A Study on the Ranking and Matchmaking System}
+      \field{year}{2020}
+      \field{pages}{245\bibrangedash 250}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CDS49703.2020.00056
+      \endverb
+    \endentry
+    \entry{irshad2023wearable}{article}{}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=6036f44a79aac9539c65fa245ab93801}{%
+           family={Irshad},
+           familyi={I\bibinitperiod},
+           given={Muhammad\bibnamedelima Tausif},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd4da60690bc4ee35eeaaf99b908c1d9}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c72da2fbdfd1862d64487d297d4348b}{%
+           family={Nisar},
+           familyi={N\bibinitperiod},
+           given={Muhammad\bibnamedelima Adeel},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8582a9a19f3c3afe4a93ba5a25b27fc2}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xinyu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e137e4aadb0a1488014f9df4a0fe7ae3}{%
+           family={Buss},
+           familyi={B\bibinitperiod},
+           given={Martje},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ad8403f3c8a8348a0c77cf76072d8ac}{%
+           family={Kloep},
+           familyi={K\bibinitperiod},
+           given={Leonie},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd828c8edda3a9364f94023411a3d57d}{%
+           family={Peifer},
+           familyi={P\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f61eb8f60c66358c27a97a6230d60506}{%
+           family={Kozusznik},
+           familyi={K\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b25333641707413c1cfced6fc08ad867}{%
+           family={Pollak},
+           familyi={P\bibinitperiod},
+           given={Anita},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebde18171ea1cb2d9b09cea636cba456}{%
+           family={Pyszka},
+           familyi={P\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c301d5393f90c5c9f9c96dbee6995448}{%
+           family={Flak},
+           familyi={F\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85979de2752376592d5547d712c5425f}{%
+           family={Grzegorzek},
+           familyi={G\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64e9908d0608a1a30ace5401a6a1bb14}
+      \strng{fullhash}{0ccd21907411d0e1abebb4b24653a693}
+      \strng{fullhashraw}{0ccd21907411d0e1abebb4b24653a693}
+      \strng{bibnamehash}{0ccd21907411d0e1abebb4b24653a693}
+      \strng{authorbibnamehash}{0ccd21907411d0e1abebb4b24653a693}
+      \strng{authornamehash}{64e9908d0608a1a30ace5401a6a1bb14}
+      \strng{authorfullhash}{0ccd21907411d0e1abebb4b24653a693}
+      \strng{authorfullhashraw}{0ccd21907411d0e1abebb4b24653a693}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{title}{Wearable-based human flow experience recognition enhanced by transfer learning methods using emotion data}
+      \field{volume}{166}
+      \field{year}{2023}
+      \field{pages}{107489}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compbiomed.2023.107489
+      \endverb
+    \endentry
+    \entry{kutt2022biraffe2}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=35fac8a70ff6783cd16356aec434a228}{%
+           family={Kutt},
+           familyi={K\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ec73f197f58c4d9a4e146770e37e8bc}{%
+           family={Drążyk},
+           familyi={D\bibinitperiod},
+           given={Dominika},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8530dda12d3a0d162bb28565af0e2b94}{%
+           family={Żuchowska},
+           familyi={Ż\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4ebde2022e2d5580e1829bcc749d1a0}{%
+           family={Szelążek},
+           familyi={S\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0b76bda8874efc8e04daf24be11edf9}{%
+           family={Bobek},
+           familyi={B\bibinitperiod},
+           given={Szymon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=409b560778b72b867f55a6c5467c49b4}{%
+           family={Nalepa},
+           familyi={N\bibinitperiod},
+           given={Grzegorz\bibnamedelima J},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{1cf5ac0b34d0085bbb9b790adb5b475e}
+      \strng{fullhash}{61cc6af536f69734bef2698a9fde9102}
+      \strng{fullhashraw}{61cc6af536f69734bef2698a9fde9102}
+      \strng{bibnamehash}{61cc6af536f69734bef2698a9fde9102}
+      \strng{authorbibnamehash}{61cc6af536f69734bef2698a9fde9102}
+      \strng{authornamehash}{1cf5ac0b34d0085bbb9b790adb5b475e}
+      \strng{authorfullhash}{61cc6af536f69734bef2698a9fde9102}
+      \strng{authorfullhashraw}{61cc6af536f69734bef2698a9fde9102}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Data}
+      \field{number}{1}
+      \field{title}{{BIRAFFE2}, a multimodal dataset for emotion-based personalization in rich affective game environments}
+      \field{volume}{9}
+      \field{year}{2022}
+      \field{pages}{279}
+      \range{pages}{1}
+    \endentry
+    \entry{Moneta2012}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0288c3ee8bf6aefbd6991596717aa81f}{%
+           family={Moneta},
+           familyi={M\bibinitperiod},
+           given={Giovanni\bibnamedelima B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c8a020b302e4747a207a6c24ba589d28}{%
+           family={Engeser},
+           familyi={E\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{fullhash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{fullhashraw}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{bibnamehash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{authorbibnamehash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{authornamehash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{authorfullhash}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{authorfullhashraw}{0288c3ee8bf6aefbd6991596717aa81f}
+      \strng{editorbibnamehash}{c8a020b302e4747a207a6c24ba589d28}
+      \strng{editornamehash}{c8a020b302e4747a207a6c24ba589d28}
+      \strng{editorfullhash}{c8a020b302e4747a207a6c24ba589d28}
+      \strng{editorfullhashraw}{c8a020b302e4747a207a6c24ba589d28}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter introduces in chronological order the three main measurement methods--the flow questionnaire, the experience sampling method, and the standardized scales of the componential approach--that researchers developed and used in conducting research on the flow state. Each measurement method and underlying conceptualization is explained, and its strengths and limitations are then discussed in relation to the other measurement methods and associated conceptualizations. The analysis reveals that, although the concept of flow remained stable since its inception, the models of flow that researchers developed in conjunction with the measurement methods changed substantially over time. Moreover, the findings obtained by applying the various measurement methods led to corroborations and disconfirmations of the underlying models and hence provided indications on how to interpret and possibly modify flow theory. The final section outlines new directions for developing more valid and useful measurement methods that can help to advance the understanding of flow, its antecedents, and its consequences.}
+      \field{booktitle}{Advances in Flow Research}
+      \field{isbn}{978-1-4614-2359-1}
+      \field{title}{On the Measurement and Conceptualization of Flow}
+      \field{year}{2012}
+      \field{pages}{23\bibrangedash 50}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/978-1-4614-2359-1_2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-1-4614-2359-1_2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-1-4614-2359-1_2
+      \endverb
+    \endentry
+    \entry{newzoo2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c854959b07079bcbe0eaf6562061aa4}{%
+           family={{Newzoo}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Newzoo}%
+      }
+      \strng{namehash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{fullhash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{fullhashraw}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{bibnamehash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{authorbibnamehash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{authornamehash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{authorfullhash}{4c854959b07079bcbe0eaf6562061aa4}
+      \strng{authorfullhashraw}{4c854959b07079bcbe0eaf6562061aa4}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global Esports \& Live Streaming Market Report 2024}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://newzoo.com/resources/blog/esports-market-trends-2024
+      \endverb
+      \verb{url}
+      \verb https://newzoo.com/resources/blog/esports-market-trends-2024
+      \endverb
+    \endentry
+    \entry{poulus2021determinants}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1f3ee3547c604104ae7eac68a2582d76}{%
+           family={Poulus},
+           familyi={P\bibinitperiod},
+           given={Dylan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e70f34c94684f67a81ae25f44af2aa4}{%
+           family={Coulter},
+           familyi={C\bibinitperiod},
+           given={Tristan},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=836711fd340cb99cd81df4497492eb45}{%
+           family={Trotter},
+           familyi={T\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=daed5e1504f9e2368911a2e1812cbf01}{%
+           family={Polman},
+           familyi={P\bibinitperiod},
+           given={Remco},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bd73a8e0afe24cffa37d46bd0b8b6ab5}
+      \strng{fullhash}{fcbec4aafb926e89b45d04b8f143d20f}
+      \strng{fullhashraw}{fcbec4aafb926e89b45d04b8f143d20f}
+      \strng{bibnamehash}{fcbec4aafb926e89b45d04b8f143d20f}
+      \strng{authorbibnamehash}{fcbec4aafb926e89b45d04b8f143d20f}
+      \strng{authornamehash}{bd73a8e0afe24cffa37d46bd0b8b6ab5}
+      \strng{authorfullhash}{fcbec4aafb926e89b45d04b8f143d20f}
+      \strng{authorfullhashraw}{fcbec4aafb926e89b45d04b8f143d20f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Publication details to be added (e.g., journal/conference, volume/issue, pages, DOI/URL).}
+      \field{title}{A Qualitative Analysis of the Perceived Determinants of Success in Professional Esports Athletes}
+      \field{year}{2021}
+    \endentry
+    \entry{recker2021researchmethods}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=604e15fd1714275673736d598c9e7e89}{%
+           family={Recker},
+           familyi={R\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{604e15fd1714275673736d598c9e7e89}
+      \strng{fullhash}{604e15fd1714275673736d598c9e7e89}
+      \strng{fullhashraw}{604e15fd1714275673736d598c9e7e89}
+      \strng{bibnamehash}{604e15fd1714275673736d598c9e7e89}
+      \strng{authorbibnamehash}{604e15fd1714275673736d598c9e7e89}
+      \strng{authornamehash}{604e15fd1714275673736d598c9e7e89}
+      \strng{authorfullhash}{604e15fd1714275673736d598c9e7e89}
+      \strng{authorfullhashraw}{604e15fd1714275673736d598c9e7e89}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Scientific Research in Information Systems: A Beginner's Guide}
+      \field{title}{Research Methods}
+      \field{year}{2021}
+      \field{pages}{87\bibrangedash 160}
+      \range{pages}{74}
+      \verb{doi}
+      \verb 10.1007/978-3-030-85436-2_5
+      \endverb
+    \endentry
+    \entry{10.1145/3549506}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9d5d5879548cf4c995a466a3100319be}{%
+           family={Rijnders},
+           familyi={R\bibinitperiod},
+           given={Frans},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=567c98f6363b20348575d7fd69276e19}{%
+           family={Wallner},
+           familyi={W\bibinitperiod},
+           given={Günter},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c1810c3f343d7ce2368fe1c14400c36}{%
+           family={Bernhaupt},
+           familyi={B\bibinitperiod},
+           given={Regina},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{ee9669cda2a312545b4c74a501ba007e}
+      \strng{fullhash}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \strng{fullhashraw}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \strng{bibnamehash}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \strng{authorbibnamehash}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \strng{authornamehash}{ee9669cda2a312545b4c74a501ba007e}
+      \strng{authorfullhash}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \strng{authorfullhashraw}{f4bfec5f63a6e794f515d9ef12d1a12a}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With competitive gaming on the rise, players have developed an increased interest in data-driven feedback of their in-game performance. In many cases, this feedback is presented visually post-play but live companions that provide real-time analytics are gaining more and more attention. However, the design of such systems poses different requirements which have been little explored from a scholarly point of view.In this paper, we report on a study of two visualizations - a physical and digital one - providing live feedback to League of Legends players designed based on a community survey (N= 175) and expert input. We further discuss results of a qualitative evaluation with 13 players and an expert, touch upon potential benefits and drawbacks of physical and digital implementations, and present derived design considerations and challenges for such real-time data visualizations, revolving around issues of information density, contextualization, representation, and a diverse range of user needs.}
+      \field{journaltitle}{Proc. ACM Hum.-Comput. Interact.}
+      \field{month}{10}
+      \field{number}{CHI PLAY}
+      \field{title}{Live Feedback for Training Through Real-Time Data Visualizations: A Study with League of Legends}
+      \field{volume}{6}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1145/3549506
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3549506
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3549506
+      \endverb
+      \keyw{training,gameplay visualization,data physicalization}
+    \endentry
+    \entry{riotgames_lol}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f57cf07c1856f8676e754198255ca3bf}{%
+           family={{Riot Games}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{fullhash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{fullhashraw}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{bibnamehash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{authorbibnamehash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{authornamehash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{authorfullhash}{f57cf07c1856f8676e754198255ca3bf}
+      \strng{authorfullhashraw}{f57cf07c1856f8676e754198255ca3bf}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Computer game}
+      \field{note}{Version 2026}
+      \field{title}{League of {Legends}}
+      \field{year}{2009}
+    \endentry
+    \entry{9296229}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=c49dc70bd1a54f5ab1df60699d45a35f}{%
+           family={Rissler},
+           familyi={R\bibinitperiod},
+           given={Raphael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=520f181099b8816c582041dd8e17a87c}{%
+           family={Nadj},
+           familyi={N\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a78b8391f1616d2c0f08cef893b7c85d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Maximilian\bibnamedelima X.},
+           giveni={M\bibinitperiod\bibinitdelim X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2e4a7e9429f0c99ffd78d210c7b0123}{%
+           family={Loewe},
+           familyi={L\bibinitperiod},
+           given={Nico},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8f274421904468e52a74762e8ca773d}{%
+           family={Knierim},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49b9d2bfb4f6405fb255c47831e440ec}{%
+           family={Maedche},
+           familyi={M\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8442d8a3b55a80653dd2a859e99e65f}
+      \strng{fullhash}{33b2086ffdc2a71dce5682ac07acb554}
+      \strng{fullhashraw}{33b2086ffdc2a71dce5682ac07acb554}
+      \strng{bibnamehash}{33b2086ffdc2a71dce5682ac07acb554}
+      \strng{authorbibnamehash}{33b2086ffdc2a71dce5682ac07acb554}
+      \strng{authornamehash}{a8442d8a3b55a80653dd2a859e99e65f}
+      \strng{authorfullhash}{33b2086ffdc2a71dce5682ac07acb554}
+      \strng{authorfullhashraw}{33b2086ffdc2a71dce5682ac07acb554}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Affective Computing}
+      \field{number}{1}
+      \field{title}{To Be or Not to Be in Flow at Work: Physiological Classification of Flow Using Machine Learning}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{463\bibrangedash 474}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TAFFC.2020.3045269
+      \endverb
+      \keyw{Heart rate variability;Physiology;Task analysis;Information systems;Real-time systems;Particle measurements;Current measurement;Flow;machine learning;heart rate variability (HRV);field study;lab experiment}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
