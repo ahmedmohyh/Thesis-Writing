@@ -1,0 +1,295 @@
+% !TeX program = xelatex
+\documentclass[10pt, a4paper]{article}
+\usepackage[titles]{tocloft}
+
+% Document information
+\newcommand{\thetitle}{Thesis}
+\title{\thetitle}
+\author{Chair for Information Systems and AI in Marketing}
+\date{\today}
+
+
+% Font (Verdana only usable with XeLaTeX Compiler instead of pdfLaTeX)
+\usepackage{fontspec}
+\setmainfont{Verdana}
+
+
+\usepackage[american]{babel}
+\addto\captionsamerican{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {Table of Contents}%
+}
+
+
+
+\usepackage{csquotes}
+\usepackage{array}
+\usepackage{parskip}
+
+
+
+%\newfontfamily\Verdana{Verdana}[Scale=MatchLowercase, Ligatures=TeX]
+\newfontfamily\Verdana{Verdana}[Ligatures=TeX]
+%\newfontfamily\Arial{Arial}[Ligatures=TeX]
+
+
+% Headers
+\usepackage{titlesec}
+
+%\titlespacing{\section}{0pt}{2pt}{6pt}{0pt}
+
+\titleformat{\section}
+{\bfseries\fontsize{16pt}{18pt}\selectfont}
+{\thesection}{1em}{}
+
+\titleformat{\subsection}
+{\bfseries\fontsize{14pt}{16pt}\selectfont}
+{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+{\bfseries\fontsize{12pt}{14pt}\selectfont}
+{\thesubsubsection}{1em}{}
+
+% Read in template when to use subheadings 
+\newcommand{\subheading}[1]{
+  \par\noindent
+  {\bfseries\fontsize{12pt}{14pt}\selectfont #1\par}
+  \vspace{0.75em}
+}
+
+% References 
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{references.bib}
+% Distance between sources in references section
+\usepackage{etoolbox}
+\setlength\bibitemsep{1em}
+\apptocmd{\bibsetup}{\setlength{\itemsep}{\bibitemsep}}{}{}
+
+% For specifying the format of table of contents, list of figures and list of tables
+% Without [titles here, the Table of Contents does not have a header]
+\renewcommand{\cftdotsep}{0.5}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftfigpresnum}{Figure~}
+\renewcommand{\cftfigaftersnum}{: }
+
+
+\settowidth{\cftfignumwidth}{Figure 99: }
+\renewcommand{\cfttabpresnum}{Table~}
+\renewcommand{\cfttabaftersnum}{: }
+\settowidth{\cfttabnumwidth}{Table 99: }
+\setlength{\cftsecindent}{0pt}% Remove indent for \section
+\setlength{\cftsubsecindent}{0pt}
+\setlength{\cftsubsubsecindent}{14pt}
+\renewcommand{\tocloftpagestyle}{fancy}
+\setlength{\cftfigindent}{0pt}  % remove indentation from figures in lof
+\setlength{\cftafterloftitleskip}{400pt}
+\setlength{\cfttabindent}{0pt}  % remove indentation from tables in lot
+%\renewcommand{\tocloftpagestyle}{empty}
+
+
+
+
+% To include graphics, specify the path to the images
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+% Package for better symbols 
+\usepackage{pifont}
+
+% Standardization of enumeration levels
+\usepackage{enumitem}
+\setlist[itemize,2]{label=\raisebox{-0.2ex}{\scalebox{1.5}{\textopenbullet}}}
+\setlist[itemize,3]{label=\raisebox{0.3ex}{\scalebox{0.4}{\ding{110}}}}
+
+% For tables 
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage[table]{xcolor}
+\usepackage{longtable}
+\makeatletter
+\@ifpackagelater{longtable}{2026/01/01}{}{
+  \patchcmd{\LT@output}{\copy\LT@foot\vss}{\copy\LT@foot\vskip 0pt plus 1fil minus \normalbaselineskip}{}{}
+  \patchcmd{\LT@output}{\copy\LT@foot\vss}{\copy\LT@foot\vskip 0pt plus 1fil minus \normalbaselineskip}{}{}
+}
+\makeatother
+
+% For captions of figures and tables 
+\usepackage{caption}
+\captionsetup{
+  font={bf,footnotesize},
+  labelfont=bf,
+  labelsep=colon,        
+  textformat=simple      
+}
+
+% For correct placement of images on the title page
+\usepackage{chngpage}
+\usepackage{calc}
+\usepackage{pgfgantt}
+
+% Spacing
+\usepackage{geometry}
+\geometry{left=3cm, right=2cm, top=2.5cm, bottom=3cm, papersize={210mm, 297mm}}
+%\geometry{papersize={210mm, 297mm}}
+\usepackage{setspace}
+%\onehalfspacing
+%\setstretch{1.6}
+
+% Header 
+\usepackage{fancyhdr}
+\usepackage{color}
+% Page numbering and title 
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyhead[L]{[Titel]}
+\fancyhead[R]{\thepage}
+% Line in the header 
+\renewcommand{\headrulewidth}{0.15pt}
+\makeatletter
+\renewcommand{\headrule}{%
+  {\color{black}\hrule width\headwidth height\headrulewidth \vskip-\headrulewidth}
+}
+\makeatother
+\setlength{\headwidth}{\textwidth}
+
+% Automatic generation of hyperlinks for references (ref / cite)
+\usepackage{hyperref}
+\hypersetup{
+  hypertexnames = false,
+  colorlinks   = true,    % Colours links instead of ugly boxes
+  urlcolor     = black,    % Colour for external hyperlinks
+  linkcolor    =  black,    % Colour of internal links
+  citecolor    = black      % Colour of citations
+}
+
+%\onehalfspacing
+%\linespread{1.25}
+%\linespread{1.028}
+\setstretch{1.5}
+%\usepackage[fontsize=10bp]{scrextend}
+\usepackage{color, soul}
+
+%\usepackage[english]{babel}
+
+
+
+\begin{document}
+    \addtocontents{lof}{\vskip 14pt}
+    \addtocontents{lot}{\vskip 14pt}
+    %\addtocontents{lof}{\vskip 1.2cm}
+
+    %\onehalfspacing
+    \titlespacing{\section}{0pt}{2pt}{6pt}
+    \titlespacing{\subsection}{0pt}{6pt}{6pt}
+    \titlespacing{\subsubsection}{0pt}{6pt}{6pt}
+    
+    % Title in header (again for safety)
+    \fancyhead[L]{[A Physio-Adaptive System for Real-Time Flow Detection in Competitive Esports]}
+    
+    % Title page
+    \input{titlepage}
+    \newpage
+
+    \pagenumbering{roman}
+
+    % Abstract
+    \section*{Abstract (only for Bachelor/Master thesis)}
+    \addcontentsline{toc}{section}{Abstract (only for Bachelor/Master thesis)}
+        \input{frontmatter/abstract.tex}
+    \newpage
+    
+    % Table of Contents
+    \setstretch{1.75}
+    \thispagestyle{fancy}
+    \fontsize{10pt}{10pt}\selectfont
+    \tableofcontents
+    \newpage
+    \fontsize{10pt}{10pt}\selectfont
+    \setstretch{1.5}
+    % List of Figures
+    \listoffigures
+    \addcontentsline{toc}{section}{List of Figures}
+    \thispagestyle{fancy}
+    \vspace{2em}
+    In a seminar thesis, a list of figures should only be included if \textbf{more than three figures} are included. 
+    \newpage
+    
+    % List of Tables
+    \listoftables
+    \addcontentsline{toc}{section}{List of Tables}
+    \thispagestyle{fancy}
+    \vspace{2em}
+    In a seminar thesis, a list of tables should only be included if \textbf{more than three tables} are included. 
+    \newpage
+
+    % List of Abbreviations 
+    \section*{List of Abbreviations\\(only for Bachelor/Master thesis)}
+    \addcontentsline{toc}{section}{List of Abbreviations (only for Bachelor/Master thesis)}
+        \input{frontmatter/abbreviations.tex}
+
+    \newpage    
+
+    % Chapters
+    \pagenumbering{arabic}   
+    
+    \section{Introduction}
+        \input{chapters/01_introduction.tex}
+
+    \clearpage    
+    \section{Foundations} 
+        \input{chapters/02_foundations.tex}
+
+    \clearpage  
+    \section{Related Work}
+        \input{chapters/03_related_work.tex}
+
+    \clearpage  
+    \section{Research Method}
+        \input{chapters/04_research_method.tex}
+
+    \clearpage  
+    \section{Results}
+        \input{chapters/05_results.tex}
+        
+    \clearpage  
+    \section{Discussion}
+        \input{chapters/06_discussion.tex}
+
+    \clearpage  
+    \section{Conclusion}
+        \input{chapters/07_conclusion.tex}
+
+
+    % References
+    \newpage
+    \section*{   References}
+    % You can delete this line ("\section*{References}) when you delete the text, as this line is only used to enable the text in front of the sources. Keep in mind, that you need to delete the "[heading=none]" a few lines below as well when you do this. 
+    \addcontentsline{toc}{section}{References}
+    Please use \textbf{APA 7\textsuperscript{th} edition} as citation style for your thesis.
+
+    \textbf{General information can be found here:} \href{https://apastyle.apa.org/}{\textcolor{red}{https://apastyle.apa.org/}} 
+    
+    \vspace{3em}
+    In the following, you will find a sample reference list as a guide:
+    \nocite{*} % Delete this when altering this template, this command allows to show every source in your library, even though it is not cited. It is used only for exemplary purposes.
+    \printbibliography[heading=none]
+
+    % Appendix
+    \newpage
+    \appendix
+    \newgeometry{left=3cm, right=1.5cm, top=2cm, bottom=2cm}
+    \section*{List of Permitted Aids and Documentation}
+    \addcontentsline{toc}{section}{List of Permitted Aids and Documentation}
+        \input{appendix/permittedAids.tex}
+
+    \newpage
+    \setstretch{1.5}
+    \section*{Appendix (if applicable)}
+    \addcontentsline{toc}{section}{Appendix (if applicable)}
+        \input{appendix/appendix.tex}
+
+    \newpage
+    
+    \input{appendix/declaration.tex}
+
+\end{document}

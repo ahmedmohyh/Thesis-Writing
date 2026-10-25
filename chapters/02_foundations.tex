@@ -1,0 +1,62 @@
+Directly below each main section, there is space for a brief introduction to the content.
+
+In the foundation's section, important terms, concepts, frameworks, etc., are introduced and defined.
+
+\subsection{Outline}
+The heading structure is hierarchical. The section headings are defined in the style sheets by name as heading 1, heading 2, etc.
+
+Please do \textbf{not} use a fourth-level heading.
+
+\subsection{Figures and Tables}
+Figures are \textbf{always} inserted centered, with a name and, if applicable, a source.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/ude_figure_example.png}
+    \caption{Figure name (Source if applicable)}
+    \label{fig:ude_figure_example}
+\end{figure}
+
+It is important to always \textbf{explain} figures in the text and to refer to the figures in the text (see Figure~\ref{fig:ude_figure_example}). This also applies to tables. In the case of third-party figures and tables, the original source must also be indicated (e.g., in brackets at the end of the title). Tables should also be centered and labeled (see Table~\ref{tab:table_1}).
+
+Please ensure that the font, color and style of figures and tables are \textbf{consistent}.
+\clearpage
+
+\setcounter{table}{0} % Use this in front of your first table to ensure correct ordering in your list of tables
+
+% This tables is only for exemplary purposes and therefore not really suited as a template for your tables 
+% The table displayed in the appendix (List of Permitted Aids and Documentation) serves as a better template for your LaTeX tables
+
+\begin{table}[htbp]
+  \centering
+  \caption{Table name (Source if applicable)} 
+  \label{tab:table_1}
+
+  \renewcommand{\arraystretch}{1.6} 
+  \begin{tabular}{|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|}
+    \hline
+    \rowcolor{black}
+    \makebox[2.5cm][c]{\color{white} \rule{0pt}{3.5ex} } & 
+    \makebox[2.5cm][c]{\color{white} \rule{0pt}{3.5ex} } & 
+    \makebox[2.5cm][c]{\color{white} \rule{0pt}{3.5ex} } & 
+    \makebox[2.5cm][c]{\color{white} \rule{0pt}{3.5ex} } & 
+    \makebox[2.5cm][c]{\color{white} \rule{0pt}{3.5ex} } \\ \hline
+    \rule{0pt}{3.5ex} & & & & \\ \hline
+  \end{tabular}
+\end{table}
+
+Format template for listings and numbering with multiple levels:
+
+\begin{itemize}
+\item First level 
+    \begin{itemize}
+    \item Second level
+        \begin{itemize}
+        \item Third level 
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+\subsection{Content}
+
+Your text should be divided into paragraphs using figures and tables. It should be noted that a paragraph captures a thematic idea, whereby the core statement is usually found at the beginning of the paragraph and, from this, is structured by further discussions within the paragraph.
