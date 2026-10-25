@@ -133,6 +133,143 @@
       \verb 10.1007/s10899-018-9763-1
       \endverb
     \endentry
+    \entry{chiossi2023how}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=45652df6c824a26e4f22d3616b6f21a4}{%
+           family={Chiossi},
+           familyi={C\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae8915de088fb82c324e85dc0e4fb80f}{%
+           family={Mayer},
+           familyi={M\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{fullhash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{fullhashraw}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{bibnamehash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{authorbibnamehash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{authornamehash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{authorfullhash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{authorfullhashraw}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mixed Reality (MR) allows users to interact with digital objects in a physical environment, but several limitations have hampered widespread adoption. Physiologically adaptive systems detecting users states can drive interaction and address these limitations. Here, we highlight potential usability and interaction limitations in MR and how physiologically adaptive systems can benefit MR experiences and applications. We specifically address potential applications for human factors and operational settings such as healthcare, education, and entertainment.We further discuss benefits and applications in light of ethical and privacy concerns. The use of physiologically adaptive systems in MR has the potential to revolutionize human-computer interactions and provide users with a more personalized and engaging experience.}
+      \field{day}{23}
+      \field{journaltitle}{Workshop on the Future of Computational Approaches for Understanding and Adapting User Interfaces}
+      \field{month}{4}
+      \field{title}{How Can Mixed Reality Benefit From Physiologically-Adaptive Systems? Challenges and Opportunities for Human Factors}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2303.17978
+      \endverb
+      \verb{urlraw}
+      \verb https://sven-mayer.com/wp-content/uploads/2023/04/chiossi2023how.pdf
+      \endverb
+      \verb{url}
+      \verb https://sven-mayer.com/wp-content/uploads/2023/04/chiossi2023how.pdf
+      \endverb
+      \keyw{electrodermal activity,electromyography,physiological computing,physiological sensing}
+    \endentry
+    \entry{cowley2008understanding}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e045e26b6a1f68e530d07242ab864754}{%
+           family={Cowley},
+           familyi={C\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e5057558148237b52cfa8ac834b26cd}{%
+           family={Charles},
+           familyi={C\bibinitperiod},
+           given={Darryl},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=227af7806bde80866fbaabbd21909542}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Michaela},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e565008d4f977b215b8e9c63af9d65dd}{%
+           family={Hickey},
+           familyi={H\bibinitperiod},
+           given={Ray},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{b2d0e78dd7af664183bc64811ee6e6c1}
+      \strng{fullhash}{09ec7a363909b5f49c6a3c79f47ac973}
+      \strng{fullhashraw}{09ec7a363909b5f49c6a3c79f47ac973}
+      \strng{bibnamehash}{09ec7a363909b5f49c6a3c79f47ac973}
+      \strng{authorbibnamehash}{09ec7a363909b5f49c6a3c79f47ac973}
+      \strng{authornamehash}{b2d0e78dd7af664183bc64811ee6e6c1}
+      \strng{authorfullhash}{09ec7a363909b5f49c6a3c79f47ac973}
+      \strng{authorfullhashraw}{09ec7a363909b5f49c6a3c79f47ac973}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Entertainment (CIE)}
+      \field{number}{2}
+      \field{title}{Toward an understanding of flow in video games}
+      \field{volume}{6}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 27}
+      \range{pages}{27}
+    \endentry
+    \entry{creswell2017research}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=b1380c24c67c845904268779de94b743}{%
+           family={Creswell},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=d368b0d8aabe692e7e6352ab805931e2}{%
+           family={Creswell},
+           familyi={C\bibinitperiod},
+           given={J\bibnamedelima David},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Sage publications}%
+      }
+      \strng{namehash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{fullhash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{fullhashraw}{a6171743d58e336b94e2b43daddb7251}
+      \strng{bibnamehash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{authorbibnamehash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{authornamehash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{authorfullhash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{authorfullhashraw}{a6171743d58e336b94e2b43daddb7251}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Research design: Qualitative, quantitative, and mixed methods approaches}
+      \field{year}{2017}
+    \endentry
     \entry{inbook}{inbook}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4102f9749c0a86a4a970e9b54bfb1b29}{%
@@ -211,6 +348,100 @@
       \verb https://delvetool.com/blog/openaxialselective
       \endverb
     \endentry
+    \entry{dietrich2004neurocognitive}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a60390b2c2f8cf2e0b9d167a68a465f1}{%
+           family={Dietrich},
+           familyi={D\bibinitperiod},
+           given={Arne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{fullhash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{fullhashraw}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{bibnamehash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{authorbibnamehash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{authornamehash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{authorfullhash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{authorfullhashraw}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Consciousness and Cognition}
+      \field{number}{4}
+      \field{title}{Neurocognitive mechanisms of states of flow}
+      \field{volume}{13}
+      \field{year}{2004}
+      \field{pages}{746\bibrangedash 761}
+      \range{pages}{16}
+    \endentry
+    \entry{escharts2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bacb90c9eddd2b893ec27d52a544bd81}{%
+           family={{Esports Charts}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{fullhash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{fullhashraw}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{bibnamehash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{authorbibnamehash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{authornamehash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{authorfullhash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{authorfullhashraw}{bacb90c9eddd2b893ec27d52a544bd81}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{League of Legends World Championship Viewership Statistics}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://escharts.com/games/lol
+      \endverb
+      \verb{url}
+      \verb https://escharts.com/games/lol
+      \endverb
+    \endentry
+    \entry{fairclough2009fundamentals}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5300a778c17860b64a63c73a173c303d}{%
+           family={Fairclough},
+           familyi={F\bibinitperiod},
+           given={Stephen\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5300a778c17860b64a63c73a173c303d}
+      \strng{fullhash}{5300a778c17860b64a63c73a173c303d}
+      \strng{fullhashraw}{5300a778c17860b64a63c73a173c303d}
+      \strng{bibnamehash}{5300a778c17860b64a63c73a173c303d}
+      \strng{authorbibnamehash}{5300a778c17860b64a63c73a173c303d}
+      \strng{authornamehash}{5300a778c17860b64a63c73a173c303d}
+      \strng{authorfullhash}{5300a778c17860b64a63c73a173c303d}
+      \strng{authorfullhashraw}{5300a778c17860b64a63c73a173c303d}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Interacting with Computers}
+      \field{number}{1-2}
+      \field{title}{Fundamentals of physiological computing}
+      \field{volume}{21}
+      \field{year}{2009}
+      \field{pages}{133\bibrangedash 145}
+      \range{pages}{13}
+    \endentry
     \entry{gong2020league}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -248,6 +479,172 @@
       \verb{doi}
       \verb 10.1109/CDS49703.2020.00056
       \endverb
+    \endentry
+    \entry{gramfort2013mne}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=12ebe424e1c87de156c57e8fa7683f46}{%
+           family={Gramfort},
+           familyi={G\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77ad1fb7949db9d6c182a2d2ba1f61e1}{%
+           family={Luessi},
+           familyi={L\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d336f110675c46226ece1db501ce712}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad3a803f81213a1fbde5b3effc18a40c}{%
+           family={Engemann},
+           familyi={E\bibinitperiod},
+           given={Denis\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43961091718f3865484edbde113ec9de}{%
+           family={Strohmeier},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b887cfc1a9f9a8a21b83c210572502d}{%
+           family={Brodbeck},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78dcfa59eb0a7f5366d411fe8c711581}{%
+           family={Parkkonen},
+           familyi={P\bibinitperiod},
+           given={Lauri},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc9622143b33b140dabd4a01be61218d}{%
+           family={Hämäläinen},
+           familyi={H\bibinitperiod},
+           given={Matti\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{154bc261ff382adb7088ac8e56941977}
+      \strng{fullhash}{10efd9ed5b64a2c7842716985855241f}
+      \strng{fullhashraw}{10efd9ed5b64a2c7842716985855241f}
+      \strng{bibnamehash}{10efd9ed5b64a2c7842716985855241f}
+      \strng{authorbibnamehash}{10efd9ed5b64a2c7842716985855241f}
+      \strng{authornamehash}{154bc261ff382adb7088ac8e56941977}
+      \strng{authorfullhash}{10efd9ed5b64a2c7842716985855241f}
+      \strng{authorfullhashraw}{10efd9ed5b64a2c7842716985855241f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NeuroImage}
+      \field{title}{MNE software for processing MEG and EEG data}
+      \field{volume}{81}
+      \field{year}{2013}
+      \field{pages}{459\bibrangedash 486}
+      \range{pages}{28}
+    \endentry
+    \entry{harris2023systematic}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d08715e5e40bbfc36c0c56c31f74e826}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=316f2cbae91c94a6c22be8738e623aa9}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Kate\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=feed3fb14be6deba6459c8225c416ef8}{%
+           family={Vine},
+           familyi={V\bibinitperiod},
+           given={Samuel\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1203029809a49f2f14e32e13f6d0e90}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{676de395d5a84a92de8b889b849267a9}
+      \strng{fullhash}{69484cd466bf1aafab4509e6795a6454}
+      \strng{fullhashraw}{69484cd466bf1aafab4509e6795a6454}
+      \strng{bibnamehash}{69484cd466bf1aafab4509e6795a6454}
+      \strng{authorbibnamehash}{69484cd466bf1aafab4509e6795a6454}
+      \strng{authornamehash}{676de395d5a84a92de8b889b849267a9}
+      \strng{authorfullhash}{69484cd466bf1aafab4509e6795a6454}
+      \strng{authorfullhashraw}{69484cd466bf1aafab4509e6795a6454}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Review of Sport and Exercise Psychology}
+      \field{number}{1}
+      \field{title}{A systematic review and meta-analysis of the relationship between flow states and performance}
+      \field{volume}{16}
+      \field{year}{2023}
+      \field{pages}{693\bibrangedash 721}
+      \range{pages}{29}
+    \endentry
+    \entry{ijsselsteijn2013game}{report}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5b5c7ada32e82c996d825c885536cf97}{%
+           family={IJsselsteijn},
+           familyi={I\bibinitperiod},
+           given={Wijnand},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e2fd4c5e31f603e208b1aaecc3f59b8}{%
+           family={De\bibnamedelima Kort},
+           familyi={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Yvonne},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cefa5eae400ff16742893d0dd8fbc6c}{%
+           family={Poels},
+           familyi={P\bibinitperiod},
+           given={Karolien},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Technische Universiteit Eindhoven}%
+      }
+      \strng{namehash}{6d5a86ca4952b565b764ba8862a41de2}
+      \strng{fullhash}{397826e91e920a187ede61484a827fd1}
+      \strng{fullhashraw}{397826e91e920a187ede61484a827fd1}
+      \strng{bibnamehash}{397826e91e920a187ede61484a827fd1}
+      \strng{authorbibnamehash}{397826e91e920a187ede61484a827fd1}
+      \strng{authornamehash}{6d5a86ca4952b565b764ba8862a41de2}
+      \strng{authorfullhash}{397826e91e920a187ede61484a827fd1}
+      \strng{authorfullhashraw}{397826e91e920a187ede61484a827fd1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The game experience questionnaire}
+      \field{type}{techreport}
+      \field{year}{2013}
     \endentry
     \entry{irshad2023wearable}{article}{}{}
       \name{author}{12}{}{%
@@ -349,6 +746,76 @@
       \verb 10.1016/j.compbiomed.2023.107489
       \endverb
     \endentry
+    \entry{katahira2018eeg}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=7179ac059c1a4e79bd8877ec7f046304}{%
+           family={Katahira},
+           familyi={K\bibinitperiod},
+           given={Kenji},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9271a8f7ed076b01af295602195f6944}{%
+           family={Yamazaki},
+           familyi={Y\bibinitperiod},
+           given={Yoichi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cdc64ad3d9efd2a3d6a54fa172d874c}{%
+           family={Yamaoka},
+           familyi={Y\bibinitperiod},
+           given={Chiaki},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5405890fe26fb40e4daae54a19618521}{%
+           family={Ozaki},
+           familyi={O\bibinitperiod},
+           given={Hiroaki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a5a6cd742ac0bda636794cb3798a35b}{%
+           family={Nakagawa},
+           familyi={N\bibinitperiod},
+           given={Sayaka},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa7b0f6180a987cfce19c915006a212d}{%
+           family={Nagata},
+           familyi={N\bibinitperiod},
+           given={Noriko},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b0ef04d310e4f7b45b1e71b23c6b8129}
+      \strng{fullhash}{ef415fcb1282657339f6edda9f491421}
+      \strng{fullhashraw}{ef415fcb1282657339f6edda9f491421}
+      \strng{bibnamehash}{ef415fcb1282657339f6edda9f491421}
+      \strng{authorbibnamehash}{ef415fcb1282657339f6edda9f491421}
+      \strng{authornamehash}{b0ef04d310e4f7b45b1e71b23c6b8129}
+      \strng{authorfullhash}{ef415fcb1282657339f6edda9f491421}
+      \strng{authorfullhashraw}{ef415fcb1282657339f6edda9f491421}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Flow experience is a subjective state experienced during holistic involvement in a certain activity}
+      \field{issn}{1664-1078}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{title}{EEG Correlates of the Flow State: A Combination of Increased Frontal Theta and Moderate Frontocentral Alpha Rhythm in the Mental Arithmetic Task}
+      \field{volume}{Volume 9 - 2018}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2018.00300
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.00300
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.00300
+      \endverb
+    \endentry
     \entry{kutt2022biraffe2}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=35fac8a70ff6783cd16356aec434a228}{%
@@ -414,6 +881,79 @@
       \field{pages}{279}
       \range{pages}{1}
     \endentry
+    \entry{makowski2021neurokit2}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=b21f8d3c6be7a2d1ab8d1b8cb84f1268}{%
+           family={Makowski},
+           familyi={M\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=029c908a818a742dd64e8fd21572c8b2}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Tam},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d4fca189879a99a489ce5f634c18673}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Zen\bibnamedelima J.},
+           giveni={Z\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20962d1c8dc892b4fee0cd97d6c870bc}{%
+           family={Brammer},
+           familyi={B\bibinitperiod},
+           given={Jan\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c237a7e9f06b45bf15b4884b01c64cf}{%
+           family={Lesspinasse},
+           familyi={L\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ff64c0b9b294f9998bfe0045eac097f}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Hung},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a87f8f98e2d6edfa83b195f5417ef23}{%
+           family={Schölzel},
+           familyi={S\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13cd23657d52d3068189f9a67d6317cf}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi H.\bibnamedelimi Annabel},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a4a2603626ee82dbbd2e09f03ea1709a}
+      \strng{fullhash}{bcb198c380fb5785a867d18095478f70}
+      \strng{fullhashraw}{bcb198c380fb5785a867d18095478f70}
+      \strng{bibnamehash}{bcb198c380fb5785a867d18095478f70}
+      \strng{authorbibnamehash}{bcb198c380fb5785a867d18095478f70}
+      \strng{authornamehash}{a4a2603626ee82dbbd2e09f03ea1709a}
+      \strng{authorfullhash}{bcb198c380fb5785a867d18095478f70}
+      \strng{authorfullhashraw}{bcb198c380fb5785a867d18095478f70}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavior Research Methods}
+      \field{title}{NeuroKit2: A Python toolbox for neurophysiological signal processing}
+      \field{volume}{53}
+      \field{year}{2021}
+      \field{pages}{1689\bibrangedash 1696}
+      \range{pages}{8}
+    \endentry
     \entry{Moneta2012}{inbook}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0288c3ee8bf6aefbd6991596717aa81f}{%
@@ -472,6 +1012,62 @@
       \verb https://doi.org/10.1007/978-1-4614-2359-1_2
       \endverb
     \endentry
+    \entry{nah2014flow}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=214d4b6802de2b4291892a10aaa39450}{%
+           family={Nah},
+           familyi={N\bibinitperiod},
+           given={Fiona\bibnamedelima Fui-Hoon},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc14e9b189ab38c24c0c10a9c5f21926}{%
+           family={Eschenbrenner},
+           familyi={E\bibinitperiod},
+           given={Brenda},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7109bca89276fec068287d1a6ae66835}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c76eba1508e10f27e7b72263b1c9dc5}{%
+           family={Telaprolu},
+           familyi={T\bibinitperiod},
+           given={Venkata\bibnamedelima Rajasekhar},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c20c990416d7cac54ec27d1ce30e4535}{%
+           family={Sepehr},
+           familyi={S\bibinitperiod},
+           given={Sepandar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c76fc4bc996bc5e1a7772e4b7131381a}
+      \strng{fullhash}{9fe257fee9b4140b5940834ce7b74349}
+      \strng{fullhashraw}{9fe257fee9b4140b5940834ce7b74349}
+      \strng{bibnamehash}{9fe257fee9b4140b5940834ce7b74349}
+      \strng{authorbibnamehash}{9fe257fee9b4140b5940834ce7b74349}
+      \strng{authornamehash}{c76fc4bc996bc5e1a7772e4b7131381a}
+      \strng{authorfullhash}{9fe257fee9b4140b5940834ce7b74349}
+      \strng{authorfullhashraw}{9fe257fee9b4140b5940834ce7b74349}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Information Systems and Management}
+      \field{number}{1/2}
+      \field{title}{Flow in gaming: literature synthesis and framework development}
+      \field{volume}{1}
+      \field{year}{2014}
+      \field{pages}{83\bibrangedash 124}
+      \range{pages}{42}
+    \endentry
     \entry{newzoo2024}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4c854959b07079bcbe0eaf6562061aa4}{%
@@ -505,6 +1101,80 @@
       \verb{url}
       \verb https://newzoo.com/resources/blog/esports-market-trends-2024
       \endverb
+    \endentry
+    \entry{oppermann1994adaptivity}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=157947d58824dbc6132c01786f8e811c}{%
+           family={Oppermann},
+           familyi={O\bibinitperiod},
+           given={Reinhard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {North-Holland}%
+      }
+      \strng{namehash}{157947d58824dbc6132c01786f8e811c}
+      \strng{fullhash}{157947d58824dbc6132c01786f8e811c}
+      \strng{fullhashraw}{157947d58824dbc6132c01786f8e811c}
+      \strng{bibnamehash}{157947d58824dbc6132c01786f8e811c}
+      \strng{authorbibnamehash}{157947d58824dbc6132c01786f8e811c}
+      \strng{authornamehash}{157947d58824dbc6132c01786f8e811c}
+      \strng{authorfullhash}{157947d58824dbc6132c01786f8e811c}
+      \strng{authorfullhashraw}{157947d58824dbc6132c01786f8e811c}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Adaptive user interfaces: Principles and practice}
+      \field{year}{1994}
+    \endentry
+    \entry{pope1995biocybernetic}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f5e4f4162d82317dc54b3822fd4a6724}{%
+           family={Pope},
+           familyi={P\bibinitperiod},
+           given={Alan\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d104da437741d83223acef0856139f02}{%
+           family={Bogart},
+           familyi={B\bibinitperiod},
+           given={Edward\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0ebe52b138ec46cb20a8559d1535b81}{%
+           family={Bartolome},
+           familyi={B\bibinitperiod},
+           given={Debbie\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a7fc5ba7d44c9c7c53f941d88eb34596}
+      \strng{fullhash}{314f1ed67c8185e8672974927ca19ce4}
+      \strng{fullhashraw}{314f1ed67c8185e8672974927ca19ce4}
+      \strng{bibnamehash}{314f1ed67c8185e8672974927ca19ce4}
+      \strng{authorbibnamehash}{314f1ed67c8185e8672974927ca19ce4}
+      \strng{authornamehash}{a7fc5ba7d44c9c7c53f941d88eb34596}
+      \strng{authorfullhash}{314f1ed67c8185e8672974927ca19ce4}
+      \strng{authorfullhashraw}{314f1ed67c8185e8672974927ca19ce4}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological Psychology}
+      \field{number}{1-2}
+      \field{title}{Biocybernetic system evaluates indices of operator engagement in automated task}
+      \field{volume}{40}
+      \field{year}{1995}
+      \field{pages}{187\bibrangedash 195}
+      \range{pages}{9}
     \endentry
     \entry{poulus2021determinants}{misc}{}{}
       \name{author}{4}{}{%
@@ -743,6 +1413,81 @@
       \verb 10.1109/TAFFC.2020.3045269
       \endverb
       \keyw{Heart rate variability;Physiology;Task analysis;Information systems;Real-time systems;Particle measurements;Current measurement;Flow;machine learning;heart rate variability (HRV);field study;lab experiment}
+    \endentry
+    \entry{MAXQDA2022}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=95faf8ab69d4ea077cca70e92f6ee020}{%
+           family={{VERBI Software}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \list{organization}{1}{%
+        {VERBI Software GmbH}%
+      }
+      \strng{namehash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{fullhash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{fullhashraw}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{bibnamehash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{authorbibnamehash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{authornamehash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{authorfullhash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{authorfullhashraw}{95faf8ab69d4ea077cca70e92f6ee020}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MAXQDA 2022: Software for qualitative and mixed methods data analysis}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.maxqda.com
+      \endverb
+      \verb{url}
+      \verb https://www.maxqda.com
+      \endverb
+    \endentry
+    \entry{uechtritz2026neurophysiological}{unpublished}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1a9a2c5df8aa1b67be1c480c71a706f9}{%
+           family={Uechtritz},
+           familyi={U\bibinitperiod},
+           given={Cosima},
+           giveni={C\bibinitperiod},
+           givenun=0,
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=520f181099b8816c582041dd8e17a87c}{%
+           family={Nadj},
+           familyi={N\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Duisburg-Essen}%
+      }
+      \strng{namehash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{fullhash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{fullhashraw}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{bibnamehash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{authorbibnamehash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{authornamehash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{authorfullhash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{authorfullhashraw}{a36f174e78cfbc360440601d75c43cbe}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Work in progress, Rhine-Ruhr Institute of Information Systems}
+      \field{title}{Neurophysiological Correlates of Flow: A Systematic Review based on {Csikszentmihalyi's} Flow Theory}
+      \field{year}{2026}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
@@ -860,6 +1605,143 @@
       \verb 10.1007/s10899-018-9763-1
       \endverb
     \endentry
+    \entry{chiossi2023how}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=45652df6c824a26e4f22d3616b6f21a4}{%
+           family={Chiossi},
+           familyi={C\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae8915de088fb82c324e85dc0e4fb80f}{%
+           family={Mayer},
+           familyi={M\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{fullhash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{fullhashraw}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{bibnamehash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{authorbibnamehash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{authornamehash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{authorfullhash}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \strng{authorfullhashraw}{b2186a65f3b0fa035fd1aa989dfbdd35}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mixed Reality (MR) allows users to interact with digital objects in a physical environment, but several limitations have hampered widespread adoption. Physiologically adaptive systems detecting users states can drive interaction and address these limitations. Here, we highlight potential usability and interaction limitations in MR and how physiologically adaptive systems can benefit MR experiences and applications. We specifically address potential applications for human factors and operational settings such as healthcare, education, and entertainment.We further discuss benefits and applications in light of ethical and privacy concerns. The use of physiologically adaptive systems in MR has the potential to revolutionize human-computer interactions and provide users with a more personalized and engaging experience.}
+      \field{day}{23}
+      \field{journaltitle}{Workshop on the Future of Computational Approaches for Understanding and Adapting User Interfaces}
+      \field{month}{4}
+      \field{title}{How Can Mixed Reality Benefit From Physiologically-Adaptive Systems? Challenges and Opportunities for Human Factors}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2303.17978
+      \endverb
+      \verb{urlraw}
+      \verb https://sven-mayer.com/wp-content/uploads/2023/04/chiossi2023how.pdf
+      \endverb
+      \verb{url}
+      \verb https://sven-mayer.com/wp-content/uploads/2023/04/chiossi2023how.pdf
+      \endverb
+      \keyw{electrodermal activity,electromyography,physiological computing,physiological sensing}
+    \endentry
+    \entry{cowley2008understanding}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e045e26b6a1f68e530d07242ab864754}{%
+           family={Cowley},
+           familyi={C\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e5057558148237b52cfa8ac834b26cd}{%
+           family={Charles},
+           familyi={C\bibinitperiod},
+           given={Darryl},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=227af7806bde80866fbaabbd21909542}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Michaela},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e565008d4f977b215b8e9c63af9d65dd}{%
+           family={Hickey},
+           familyi={H\bibinitperiod},
+           given={Ray},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{b2d0e78dd7af664183bc64811ee6e6c1}
+      \strng{fullhash}{09ec7a363909b5f49c6a3c79f47ac973}
+      \strng{fullhashraw}{09ec7a363909b5f49c6a3c79f47ac973}
+      \strng{bibnamehash}{09ec7a363909b5f49c6a3c79f47ac973}
+      \strng{authorbibnamehash}{09ec7a363909b5f49c6a3c79f47ac973}
+      \strng{authornamehash}{b2d0e78dd7af664183bc64811ee6e6c1}
+      \strng{authorfullhash}{09ec7a363909b5f49c6a3c79f47ac973}
+      \strng{authorfullhashraw}{09ec7a363909b5f49c6a3c79f47ac973}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Entertainment (CIE)}
+      \field{number}{2}
+      \field{title}{Toward an understanding of flow in video games}
+      \field{volume}{6}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 27}
+      \range{pages}{27}
+    \endentry
+    \entry{creswell2017research}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=b1380c24c67c845904268779de94b743}{%
+           family={Creswell},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=d368b0d8aabe692e7e6352ab805931e2}{%
+           family={Creswell},
+           familyi={C\bibinitperiod},
+           given={J\bibnamedelima David},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Sage publications}%
+      }
+      \strng{namehash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{fullhash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{fullhashraw}{a6171743d58e336b94e2b43daddb7251}
+      \strng{bibnamehash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{authorbibnamehash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{authornamehash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{authorfullhash}{a6171743d58e336b94e2b43daddb7251}
+      \strng{authorfullhashraw}{a6171743d58e336b94e2b43daddb7251}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Research design: Qualitative, quantitative, and mixed methods approaches}
+      \field{year}{2017}
+    \endentry
     \entry{inbook}{inbook}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4102f9749c0a86a4a970e9b54bfb1b29}{%
@@ -938,6 +1820,100 @@
       \verb https://delvetool.com/blog/openaxialselective
       \endverb
     \endentry
+    \entry{dietrich2004neurocognitive}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a60390b2c2f8cf2e0b9d167a68a465f1}{%
+           family={Dietrich},
+           familyi={D\bibinitperiod},
+           given={Arne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{fullhash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{fullhashraw}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{bibnamehash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{authorbibnamehash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{authornamehash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{authorfullhash}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \strng{authorfullhashraw}{a60390b2c2f8cf2e0b9d167a68a465f1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Consciousness and Cognition}
+      \field{number}{4}
+      \field{title}{Neurocognitive mechanisms of states of flow}
+      \field{volume}{13}
+      \field{year}{2004}
+      \field{pages}{746\bibrangedash 761}
+      \range{pages}{16}
+    \endentry
+    \entry{escharts2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bacb90c9eddd2b893ec27d52a544bd81}{%
+           family={{Esports Charts}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{fullhash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{fullhashraw}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{bibnamehash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{authorbibnamehash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{authornamehash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{authorfullhash}{bacb90c9eddd2b893ec27d52a544bd81}
+      \strng{authorfullhashraw}{bacb90c9eddd2b893ec27d52a544bd81}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{League of Legends World Championship Viewership Statistics}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://escharts.com/games/lol
+      \endverb
+      \verb{url}
+      \verb https://escharts.com/games/lol
+      \endverb
+    \endentry
+    \entry{fairclough2009fundamentals}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5300a778c17860b64a63c73a173c303d}{%
+           family={Fairclough},
+           familyi={F\bibinitperiod},
+           given={Stephen\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5300a778c17860b64a63c73a173c303d}
+      \strng{fullhash}{5300a778c17860b64a63c73a173c303d}
+      \strng{fullhashraw}{5300a778c17860b64a63c73a173c303d}
+      \strng{bibnamehash}{5300a778c17860b64a63c73a173c303d}
+      \strng{authorbibnamehash}{5300a778c17860b64a63c73a173c303d}
+      \strng{authornamehash}{5300a778c17860b64a63c73a173c303d}
+      \strng{authorfullhash}{5300a778c17860b64a63c73a173c303d}
+      \strng{authorfullhashraw}{5300a778c17860b64a63c73a173c303d}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Interacting with Computers}
+      \field{number}{1-2}
+      \field{title}{Fundamentals of physiological computing}
+      \field{volume}{21}
+      \field{year}{2009}
+      \field{pages}{133\bibrangedash 145}
+      \range{pages}{13}
+    \endentry
     \entry{gong2020league}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -975,6 +1951,172 @@
       \verb{doi}
       \verb 10.1109/CDS49703.2020.00056
       \endverb
+    \endentry
+    \entry{gramfort2013mne}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=12ebe424e1c87de156c57e8fa7683f46}{%
+           family={Gramfort},
+           familyi={G\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77ad1fb7949db9d6c182a2d2ba1f61e1}{%
+           family={Luessi},
+           familyi={L\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d336f110675c46226ece1db501ce712}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad3a803f81213a1fbde5b3effc18a40c}{%
+           family={Engemann},
+           familyi={E\bibinitperiod},
+           given={Denis\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43961091718f3865484edbde113ec9de}{%
+           family={Strohmeier},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b887cfc1a9f9a8a21b83c210572502d}{%
+           family={Brodbeck},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78dcfa59eb0a7f5366d411fe8c711581}{%
+           family={Parkkonen},
+           familyi={P\bibinitperiod},
+           given={Lauri},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc9622143b33b140dabd4a01be61218d}{%
+           family={Hämäläinen},
+           familyi={H\bibinitperiod},
+           given={Matti\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{154bc261ff382adb7088ac8e56941977}
+      \strng{fullhash}{10efd9ed5b64a2c7842716985855241f}
+      \strng{fullhashraw}{10efd9ed5b64a2c7842716985855241f}
+      \strng{bibnamehash}{10efd9ed5b64a2c7842716985855241f}
+      \strng{authorbibnamehash}{10efd9ed5b64a2c7842716985855241f}
+      \strng{authornamehash}{154bc261ff382adb7088ac8e56941977}
+      \strng{authorfullhash}{10efd9ed5b64a2c7842716985855241f}
+      \strng{authorfullhashraw}{10efd9ed5b64a2c7842716985855241f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NeuroImage}
+      \field{title}{MNE software for processing MEG and EEG data}
+      \field{volume}{81}
+      \field{year}{2013}
+      \field{pages}{459\bibrangedash 486}
+      \range{pages}{28}
+    \endentry
+    \entry{harris2023systematic}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d08715e5e40bbfc36c0c56c31f74e826}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=316f2cbae91c94a6c22be8738e623aa9}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Kate\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=feed3fb14be6deba6459c8225c416ef8}{%
+           family={Vine},
+           familyi={V\bibinitperiod},
+           given={Samuel\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1203029809a49f2f14e32e13f6d0e90}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{676de395d5a84a92de8b889b849267a9}
+      \strng{fullhash}{69484cd466bf1aafab4509e6795a6454}
+      \strng{fullhashraw}{69484cd466bf1aafab4509e6795a6454}
+      \strng{bibnamehash}{69484cd466bf1aafab4509e6795a6454}
+      \strng{authorbibnamehash}{69484cd466bf1aafab4509e6795a6454}
+      \strng{authornamehash}{676de395d5a84a92de8b889b849267a9}
+      \strng{authorfullhash}{69484cd466bf1aafab4509e6795a6454}
+      \strng{authorfullhashraw}{69484cd466bf1aafab4509e6795a6454}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Review of Sport and Exercise Psychology}
+      \field{number}{1}
+      \field{title}{A systematic review and meta-analysis of the relationship between flow states and performance}
+      \field{volume}{16}
+      \field{year}{2023}
+      \field{pages}{693\bibrangedash 721}
+      \range{pages}{29}
+    \endentry
+    \entry{ijsselsteijn2013game}{report}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5b5c7ada32e82c996d825c885536cf97}{%
+           family={IJsselsteijn},
+           familyi={I\bibinitperiod},
+           given={Wijnand},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e2fd4c5e31f603e208b1aaecc3f59b8}{%
+           family={De\bibnamedelima Kort},
+           familyi={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Yvonne},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cefa5eae400ff16742893d0dd8fbc6c}{%
+           family={Poels},
+           familyi={P\bibinitperiod},
+           given={Karolien},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Technische Universiteit Eindhoven}%
+      }
+      \strng{namehash}{6d5a86ca4952b565b764ba8862a41de2}
+      \strng{fullhash}{397826e91e920a187ede61484a827fd1}
+      \strng{fullhashraw}{397826e91e920a187ede61484a827fd1}
+      \strng{bibnamehash}{397826e91e920a187ede61484a827fd1}
+      \strng{authorbibnamehash}{397826e91e920a187ede61484a827fd1}
+      \strng{authornamehash}{6d5a86ca4952b565b764ba8862a41de2}
+      \strng{authorfullhash}{397826e91e920a187ede61484a827fd1}
+      \strng{authorfullhashraw}{397826e91e920a187ede61484a827fd1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The game experience questionnaire}
+      \field{type}{techreport}
+      \field{year}{2013}
     \endentry
     \entry{irshad2023wearable}{article}{}{}
       \name{author}{12}{}{%
@@ -1076,6 +2218,76 @@
       \verb 10.1016/j.compbiomed.2023.107489
       \endverb
     \endentry
+    \entry{katahira2018eeg}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=7179ac059c1a4e79bd8877ec7f046304}{%
+           family={Katahira},
+           familyi={K\bibinitperiod},
+           given={Kenji},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9271a8f7ed076b01af295602195f6944}{%
+           family={Yamazaki},
+           familyi={Y\bibinitperiod},
+           given={Yoichi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cdc64ad3d9efd2a3d6a54fa172d874c}{%
+           family={Yamaoka},
+           familyi={Y\bibinitperiod},
+           given={Chiaki},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5405890fe26fb40e4daae54a19618521}{%
+           family={Ozaki},
+           familyi={O\bibinitperiod},
+           given={Hiroaki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a5a6cd742ac0bda636794cb3798a35b}{%
+           family={Nakagawa},
+           familyi={N\bibinitperiod},
+           given={Sayaka},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa7b0f6180a987cfce19c915006a212d}{%
+           family={Nagata},
+           familyi={N\bibinitperiod},
+           given={Noriko},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b0ef04d310e4f7b45b1e71b23c6b8129}
+      \strng{fullhash}{ef415fcb1282657339f6edda9f491421}
+      \strng{fullhashraw}{ef415fcb1282657339f6edda9f491421}
+      \strng{bibnamehash}{ef415fcb1282657339f6edda9f491421}
+      \strng{authorbibnamehash}{ef415fcb1282657339f6edda9f491421}
+      \strng{authornamehash}{b0ef04d310e4f7b45b1e71b23c6b8129}
+      \strng{authorfullhash}{ef415fcb1282657339f6edda9f491421}
+      \strng{authorfullhashraw}{ef415fcb1282657339f6edda9f491421}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Flow experience is a subjective state experienced during holistic involvement in a certain activity}
+      \field{issn}{1664-1078}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{title}{EEG Correlates of the Flow State: A Combination of Increased Frontal Theta and Moderate Frontocentral Alpha Rhythm in the Mental Arithmetic Task}
+      \field{volume}{Volume 9 - 2018}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.3389/fpsyg.2018.00300
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.00300
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.00300
+      \endverb
+    \endentry
     \entry{kutt2022biraffe2}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=35fac8a70ff6783cd16356aec434a228}{%
@@ -1141,6 +2353,79 @@
       \field{pages}{279}
       \range{pages}{1}
     \endentry
+    \entry{makowski2021neurokit2}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=b21f8d3c6be7a2d1ab8d1b8cb84f1268}{%
+           family={Makowski},
+           familyi={M\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=029c908a818a742dd64e8fd21572c8b2}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Tam},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d4fca189879a99a489ce5f634c18673}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Zen\bibnamedelima J.},
+           giveni={Z\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20962d1c8dc892b4fee0cd97d6c870bc}{%
+           family={Brammer},
+           familyi={B\bibinitperiod},
+           given={Jan\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c237a7e9f06b45bf15b4884b01c64cf}{%
+           family={Lesspinasse},
+           familyi={L\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ff64c0b9b294f9998bfe0045eac097f}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Hung},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a87f8f98e2d6edfa83b195f5417ef23}{%
+           family={Schölzel},
+           familyi={S\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13cd23657d52d3068189f9a67d6317cf}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi H.\bibnamedelimi Annabel},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a4a2603626ee82dbbd2e09f03ea1709a}
+      \strng{fullhash}{bcb198c380fb5785a867d18095478f70}
+      \strng{fullhashraw}{bcb198c380fb5785a867d18095478f70}
+      \strng{bibnamehash}{bcb198c380fb5785a867d18095478f70}
+      \strng{authorbibnamehash}{bcb198c380fb5785a867d18095478f70}
+      \strng{authornamehash}{a4a2603626ee82dbbd2e09f03ea1709a}
+      \strng{authorfullhash}{bcb198c380fb5785a867d18095478f70}
+      \strng{authorfullhashraw}{bcb198c380fb5785a867d18095478f70}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Behavior Research Methods}
+      \field{title}{NeuroKit2: A Python toolbox for neurophysiological signal processing}
+      \field{volume}{53}
+      \field{year}{2021}
+      \field{pages}{1689\bibrangedash 1696}
+      \range{pages}{8}
+    \endentry
     \entry{Moneta2012}{inbook}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0288c3ee8bf6aefbd6991596717aa81f}{%
@@ -1199,6 +2484,62 @@
       \verb https://doi.org/10.1007/978-1-4614-2359-1_2
       \endverb
     \endentry
+    \entry{nah2014flow}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=214d4b6802de2b4291892a10aaa39450}{%
+           family={Nah},
+           familyi={N\bibinitperiod},
+           given={Fiona\bibnamedelima Fui-Hoon},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc14e9b189ab38c24c0c10a9c5f21926}{%
+           family={Eschenbrenner},
+           familyi={E\bibinitperiod},
+           given={Brenda},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7109bca89276fec068287d1a6ae66835}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c76eba1508e10f27e7b72263b1c9dc5}{%
+           family={Telaprolu},
+           familyi={T\bibinitperiod},
+           given={Venkata\bibnamedelima Rajasekhar},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c20c990416d7cac54ec27d1ce30e4535}{%
+           family={Sepehr},
+           familyi={S\bibinitperiod},
+           given={Sepandar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c76fc4bc996bc5e1a7772e4b7131381a}
+      \strng{fullhash}{9fe257fee9b4140b5940834ce7b74349}
+      \strng{fullhashraw}{9fe257fee9b4140b5940834ce7b74349}
+      \strng{bibnamehash}{9fe257fee9b4140b5940834ce7b74349}
+      \strng{authorbibnamehash}{9fe257fee9b4140b5940834ce7b74349}
+      \strng{authornamehash}{c76fc4bc996bc5e1a7772e4b7131381a}
+      \strng{authorfullhash}{9fe257fee9b4140b5940834ce7b74349}
+      \strng{authorfullhashraw}{9fe257fee9b4140b5940834ce7b74349}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Information Systems and Management}
+      \field{number}{1/2}
+      \field{title}{Flow in gaming: literature synthesis and framework development}
+      \field{volume}{1}
+      \field{year}{2014}
+      \field{pages}{83\bibrangedash 124}
+      \range{pages}{42}
+    \endentry
     \entry{newzoo2024}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4c854959b07079bcbe0eaf6562061aa4}{%
@@ -1232,6 +2573,80 @@
       \verb{url}
       \verb https://newzoo.com/resources/blog/esports-market-trends-2024
       \endverb
+    \endentry
+    \entry{oppermann1994adaptivity}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=157947d58824dbc6132c01786f8e811c}{%
+           family={Oppermann},
+           familyi={O\bibinitperiod},
+           given={Reinhard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {North-Holland}%
+      }
+      \strng{namehash}{157947d58824dbc6132c01786f8e811c}
+      \strng{fullhash}{157947d58824dbc6132c01786f8e811c}
+      \strng{fullhashraw}{157947d58824dbc6132c01786f8e811c}
+      \strng{bibnamehash}{157947d58824dbc6132c01786f8e811c}
+      \strng{authorbibnamehash}{157947d58824dbc6132c01786f8e811c}
+      \strng{authornamehash}{157947d58824dbc6132c01786f8e811c}
+      \strng{authorfullhash}{157947d58824dbc6132c01786f8e811c}
+      \strng{authorfullhashraw}{157947d58824dbc6132c01786f8e811c}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Adaptive user interfaces: Principles and practice}
+      \field{year}{1994}
+    \endentry
+    \entry{pope1995biocybernetic}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f5e4f4162d82317dc54b3822fd4a6724}{%
+           family={Pope},
+           familyi={P\bibinitperiod},
+           given={Alan\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d104da437741d83223acef0856139f02}{%
+           family={Bogart},
+           familyi={B\bibinitperiod},
+           given={Edward\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0ebe52b138ec46cb20a8559d1535b81}{%
+           family={Bartolome},
+           familyi={B\bibinitperiod},
+           given={Debbie\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a7fc5ba7d44c9c7c53f941d88eb34596}
+      \strng{fullhash}{314f1ed67c8185e8672974927ca19ce4}
+      \strng{fullhashraw}{314f1ed67c8185e8672974927ca19ce4}
+      \strng{bibnamehash}{314f1ed67c8185e8672974927ca19ce4}
+      \strng{authorbibnamehash}{314f1ed67c8185e8672974927ca19ce4}
+      \strng{authornamehash}{a7fc5ba7d44c9c7c53f941d88eb34596}
+      \strng{authorfullhash}{314f1ed67c8185e8672974927ca19ce4}
+      \strng{authorfullhashraw}{314f1ed67c8185e8672974927ca19ce4}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological Psychology}
+      \field{number}{1-2}
+      \field{title}{Biocybernetic system evaluates indices of operator engagement in automated task}
+      \field{volume}{40}
+      \field{year}{1995}
+      \field{pages}{187\bibrangedash 195}
+      \range{pages}{9}
     \endentry
     \entry{poulus2021determinants}{misc}{}{}
       \name{author}{4}{}{%
@@ -1470,6 +2885,81 @@
       \verb 10.1109/TAFFC.2020.3045269
       \endverb
       \keyw{Heart rate variability;Physiology;Task analysis;Information systems;Real-time systems;Particle measurements;Current measurement;Flow;machine learning;heart rate variability (HRV);field study;lab experiment}
+    \endentry
+    \entry{MAXQDA2022}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=95faf8ab69d4ea077cca70e92f6ee020}{%
+           family={{VERBI Software}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \list{organization}{1}{%
+        {VERBI Software GmbH}%
+      }
+      \strng{namehash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{fullhash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{fullhashraw}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{bibnamehash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{authorbibnamehash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{authornamehash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{authorfullhash}{95faf8ab69d4ea077cca70e92f6ee020}
+      \strng{authorfullhashraw}{95faf8ab69d4ea077cca70e92f6ee020}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MAXQDA 2022: Software for qualitative and mixed methods data analysis}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.maxqda.com
+      \endverb
+      \verb{url}
+      \verb https://www.maxqda.com
+      \endverb
+    \endentry
+    \entry{uechtritz2026neurophysiological}{unpublished}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1a9a2c5df8aa1b67be1c480c71a706f9}{%
+           family={Uechtritz},
+           familyi={U\bibinitperiod},
+           given={Cosima},
+           giveni={C\bibinitperiod},
+           givenun=0,
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=520f181099b8816c582041dd8e17a87c}{%
+           family={Nadj},
+           familyi={N\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Duisburg-Essen}%
+      }
+      \strng{namehash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{fullhash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{fullhashraw}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{bibnamehash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{authorbibnamehash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{authornamehash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{authorfullhash}{a36f174e78cfbc360440601d75c43cbe}
+      \strng{authorfullhashraw}{a36f174e78cfbc360440601d75c43cbe}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Work in progress, Rhine-Ruhr Institute of Information Systems}
+      \field{title}{Neurophysiological Correlates of Flow: A Systematic Review based on {Csikszentmihalyi's} Flow Theory}
+      \field{year}{2026}
     \endentry
   \enddatalist
 \endrefsection

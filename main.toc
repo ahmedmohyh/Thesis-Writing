@@ -1,39 +1,43 @@
 \babel@toc {american}{}\relax 
 \contentsline {section}{Abstract (only for Bachelor/Master thesis)}{i}{Doc-Start}%
-\contentsline {section}{List of Figures}{iv}{Doc-Start}%
-\contentsline {section}{List of Tables}{v}{Doc-Start}%
-\contentsline {section}{List of Abbreviations (only for Bachelor/Master thesis)}{vi}{Doc-Start}%
+\contentsline {section}{List of Abbreviations (only for Bachelor/Master thesis)}{iv}{Doc-Start}%
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {section}{\numberline {2}Foundations}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Outline}{3}{subsection.3}%
-\contentsline {subsection}{\numberline {2.2}Figures and Tables}{3}{subsection.4}%
-\contentsline {subsection}{\numberline {2.3}Content}{4}{subsection.7}%
-\contentsline {section}{\numberline {3}Related Work}{5}{section.8}%
-\contentsline {subsection}{\numberline {3.1}Indirect Citations at the end of a sentence}{5}{subsection.9}%
-\contentsline {subsubsection}{\numberline {3.1.1}Single author}{5}{subsubsection.10}%
-\contentsline {subsubsection}{\numberline {3.1.2}Two authors}{5}{subsubsection.11}%
-\contentsline {subsubsection}{\numberline {3.1.3}More than two authors}{5}{subsubsection.12}%
-\contentsline {subsection}{\numberline {3.2}(Indirect) Inline citation style}{5}{subsection.13}%
-\contentsline {subsubsection}{\numberline {3.2.1}Single author}{6}{subsubsection.14}%
-\contentsline {subsubsection}{\numberline {3.2.2}Two authors}{6}{subsubsection.15}%
-\contentsline {subsubsection}{\numberline {3.2.3}More than two authors}{6}{subsubsection.16}%
-\contentsline {subsection}{\numberline {3.3}Direct citations}{6}{subsection.17}%
-\contentsline {subsubsection}{\numberline {3.3.1}Direct citation of an entire sentence}{6}{subsubsection.18}%
-\contentsline {subsubsection}{\numberline {3.3.2}Direct citation of single information in a sentence}{6}{subsubsection.19}%
-\contentsline {section}{\numberline {4}Research Method}{7}{section.20}%
-\contentsline {subsection}{\numberline {4.1}Section 4.1}{7}{subsection.21}%
-\contentsline {subsubsection}{\numberline {4.1.1}Section 4.1.1}{7}{subsubsection.22}%
-\contentsline {subsubsection}{\numberline {4.1.2}Section 4.1.2}{7}{subsubsection.23}%
-\contentsline {subsection}{\numberline {4.2}Section 4.2}{7}{subsection.24}%
-\contentsline {subsubsection}{\numberline {4.2.1}Section 4.2.1}{7}{subsubsection.25}%
-\contentsline {subsubsection}{\numberline {4.2.2}Section 4.2.2}{7}{subsubsection.26}%
-\contentsline {section}{\numberline {5}Results}{8}{section.27}%
-\contentsline {section}{\numberline {6}Discussion}{9}{section.28}%
-\contentsline {subsection}{\numberline {6.1}Theoretical Implications}{9}{subsection.29}%
-\contentsline {subsection}{\numberline {6.2}Practical Implications}{9}{subsection.30}%
-\contentsline {subsection}{\numberline {6.3}Future Work}{9}{subsection.31}%
-\contentsline {subsection}{\numberline {6.4}Limitations}{9}{subsection.32}%
-\contentsline {section}{\numberline {7}Conclusion}{10}{section.33}%
-\contentsline {section}{References}{11}{section.33}%
-\contentsline {section}{List of Permitted Aids and Documentation}{13}{section.33}%
-\contentsline {section}{Appendix (if applicable)}{17}{table.2}%
+\contentsline {section}{\numberline {2}Foundation}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Phenomenon of Flow}{3}{subsection.3}%
+\contentsline {paragraph}{Critical Analysis and Limitations of Flow Theory.}{4}{paragraph*.14}%
+\contentsline {subsection}{\numberline {2.2}Physiological Correlates of Flow}{5}{subsection.15}%
+\contentsline {subsection}{\numberline {2.3}Physio-Adaptive Systems and the Biocybernetic Architecture}{6}{subsection.19}%
+\contentsline {subsubsection}{\numberline {2.3.1}Functional Architecture: The Biocybernetic Loop}{7}{subsubsection.20}%
+\contentsline {subsubsection}{\numberline {2.3.2}Application in E-Sports: Shielding and the Measurement Paradox}{7}{subsubsection.22}%
+\contentsline {subsubsection}{\numberline {2.3.3}General Limitations of Physio-Adaptive Flow Support}{8}{subsubsection.23}%
+\contentsline {paragraph}{Limitations of the FlowShield approach by Adam et al.}{8}{paragraph*.24}%
+\contentsline {paragraph}{Limitations in the LoL context.}{8}{paragraph*.25}%
+\contentsline {section}{\numberline {3}Method}{10}{section.26}%
+\contentsline {subsection}{\numberline {3.1}Requirement definition: Semi-Structured Interviews}{11}{subsection.31}%
+\contentsline {subsubsection}{\numberline {3.1.1}Sampling and Participant Recruitment}{11}{subsubsection.32}%
+\contentsline {subsubsection}{\numberline {3.1.2}Data Collection and Tooling}{14}{subsubsection.39}%
+\contentsline {subsubsection}{\numberline {3.1.3}Data Privacy and Ethical Considerations}{14}{subsubsection.40}%
+\contentsline {subsubsection}{\numberline {3.1.4}Qualitative Analysis: GTM Coding Workflow}{14}{subsubsection.41}%
+\contentsline {subsection}{\numberline {3.2}Implemention: Computational Experimentation}{16}{subsection.44}%
+\contentsline {subsubsection}{\numberline {3.2.1}Secondary Data Sources}{16}{subsubsection.45}%
+\contentsline {subsubsection}{\numberline {3.2.2}The Machine Learning Pipeline}{18}{subsubsection.57}%
+\contentsline {subsection}{\numberline {3.3}Research Environment: LoL}{22}{subsection.60}%
+\contentsline {subsubsection}{\numberline {3.3.1}Data Acquisition: The Riot Games Live Client API}{22}{subsubsection.61}%
+\contentsline {subsubsection}{\numberline {3.3.2}Adaptive Measures: Real-Time Cognitive and Tactical Shielding}{23}{subsubsection.62}%
+\contentsline {subsection}{\numberline {3.4}Implementation of the Physio-Adaptive System for E-Sports}{24}{subsection.67}%
+\contentsline {subsection}{\numberline {3.5}Evaluation of the Adaptive System}{25}{subsection.68}%
+\contentsline {subsubsection}{\numberline {3.5.1}Interview-Based Evaluation Process}{25}{subsubsection.69}%
+\contentsline {subsubsection}{\numberline {3.5.2}Triangulation and Validity Strategy}{26}{subsubsection.70}%
+\contentsline {section}{\numberline {4}Problem Awareness}{28}{section.73}%
+\contentsline {subsection}{\numberline {4.1}Flow and Performance}{28}{subsection.78}%
+\contentsline {subsection}{\numberline {4.2}The Nature of Interruptions and Shielding}{29}{subsection.80}%
+\contentsline {subsection}{\numberline {4.3}Flow in Esports Context and Adaptations}{30}{subsection.81}%
+\contentsline {subsection}{\numberline {4.4}Flow Classification and Public Datasets}{31}{subsection.82}%
+\contentsline {section}{\numberline {5}Design Suggestion}{33}{section.83}%
+\contentsline {section}{\numberline {6}Implementation}{34}{section.84}%
+\contentsline {section}{\numberline {7}Evaluation}{35}{section.85}%
+\contentsline {section}{\numberline {8}Discussion}{36}{section.86}%
+\contentsline {section}{\numberline {9}Conclusion}{37}{section.87}%
+\contentsline {section}{References}{38}{section.87}%
+\contentsline {section}{List of Permitted Aids and Documentation}{41}{section.87}%
+\contentsline {section}{Appendix (if applicable)}{45}{table.3}%

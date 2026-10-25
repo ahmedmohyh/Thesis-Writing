@@ -1,0 +1,79 @@
+This chapter reviews prior work relevant to this thesis and positions the project within the existing literature. The related work is structured into four thematic areas:
+
+\begin{enumerate}
+    \item \textbf{Flow and Performance:} flow theory and system adaptation principles.
+    \item \textbf{The Nature of Interruptions and Shielding:} cognitive costs of distractions in high-focus tasks.
+    \item \textbf{Flow in Esports context and adaptations:} constraints of competitive play and implications for real-time interventions.
+    \item \textbf{Flow classification and public datasets:} approaches for physiological/behavioral flow detection and available datasets.
+\end{enumerate}
+
+\subsection{Flow and Performance}
+Flow has been conceptualized in various ways across the literature, but most definitions converge on a core description: a highly engaging, optimal experience in which a person becomes fully absorbed in an activity, with reduced self-consciousness and a distorted sense of time. This foundational view is described by \textcite{inbook} and is also reflected in later syntheses of flow in gaming contexts \autocite{nah2014flow}.
+
+% --- NEW ADDITION START ---
+Beyond the foundational definition, the literature distinguishes between various models of flow. \textcite{Moneta2012} highlights the evolution from the \textit{Flow Questionnaire} to the \textit{Componential Approach}, which views flow as a set of nine distinct dimensions. This distinction is crucial for research design: while some researchers treat flow as a global, unitary state, others argue that certain dimensions—such as "clear goals" and "unambiguous feedback"—are precursors to the state, whereas "loss of self-consciousness" is a consequence of the state. Furthermore, \textcite{Moneta2012} introduces the \textit{Eight-Channel Model}, which expands the challenge-skill model by identifying transitionary states such as \textit{arousal} (high challenge, medium skill) and \textit{control} (medium challenge, high skill). Understanding these nuances is vital for adaptive systems, as the physiological signatures of "arousal" may closely mimic those of "flow," potentially leading to false-positive system triggers.
+% --- NEW ADDITION END ---
+
+Flow has also been described as a form of high-bandwidth information exchange between the player and the game: during flow, players can process in-game input and produce responses with high efficiency and minimal disruption. This perspective has been discussed in the context of flow in video games \autocite{cowley2008understanding}.
+
+Flow and performance are closely related, but the direction of this relationship is not always clear. Classic flow theory emphasizes that flow is most likely to occur when perceived skill and perceived challenge are well balanced \autocite{inbook,nah2014flow}. At the same time, flow is often associated with improved performance; however, high performance can also result from other factors such as extensive practice, favorable conditions, or chance \autocite{harris2023systematic}. Consequently, the literature suggests a feedback loop in which appropriate challenge conditions support flow, and flow may in turn facilitate strong performance \autocite{nah2014flow,harris2023systematic}.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[
+        node distance=2.8cm,
+        every node/.style={draw, rounded corners, align=center, minimum width=3.3cm, minimum height=1.1cm},
+        >={Stealth[length=3mm,width=2mm]}
+    ]
+        \node (sense) {1.\ Sensing};
+        \node (analyse) [right=of sense] {2.\ Analysing};
+        \node (feedback) [below=of analyse] {3.\ Giving\\feedback};
+
+        \draw[->] (sense) -- (analyse);
+        \draw[->] (analyse) -- (feedback);
+        \draw[->] (feedback) -- (sense);
+    \end{tikzpicture}
+    \caption{Feedback loop: sensing, analysing, and giving feedback.}
+    \label{fig:flow_feedback_loop}
+\end{figure}
+
+% --- NEW SECTION START ---
+\subsection{The Nature of Interruptions and Shielding}
+In the high-performance environment of LoL, the design of a physio-adaptive system must account for the severe cognitive penalties associated with task disruptions. \textcite{ubt_eref88160} argue that interruptions during deep work impose a substantial \enquote{resumption cost} that is often underestimated. Citing foundational research in Human-Computer Interaction, they highlight that once a user's flow is broken, it can take an average of 23 minutes to return to the original level of \textbf{deep task engagement}. 
+
+Within the context of this thesis, this recovery period represents a critical failure state, as a single interruption could effectively diminish a player's performance for the remainder of a match. Consequently, the proposed adaptive system for LoL focuses on \textbf{flow support} through proactive \textbf{shielding mechanisms}. By utilizing real-time data from the webcam and chest belt, the system implements context-aware interventions—such as suppressing external distractions or streamlining the user interface—to protect the player's cognitive resources and prevent the occurrence of costly resumption periods.
+
+In the context of flow, this cost is even higher. Flow is a fragile state; once the "loss of self-consciousness" is broken by an external stimulus, the user is forced into a state of self-reflection, which is the antithesis of flow \autocite{Moneta2012, 9296229}. This necessitates a "shielding" logic where the system prioritizes the protection of the user's attention over the immediate delivery of information. The "FlowShield" concept proposed by \textcite{ubt_eref88160} serves as a precedent for this study, demonstrating that autonomous notification management can significantly reduce cognitive load and preserve immersion in knowledge-work tasks.
+% --- NEW SECTION END ---
+
+\subsection{Flow in Esports Context and Adaptations}
+
+Within the competitive landscape of LoL, the stakes of individual performance have reached unprecedented levels, driven by its position as the world's most-watched e-sport. The \textit{LoL World Championship} (Worlds) consistently breaks viewership records, with peak concurrent viewers exceeding 6.4 million in recent iterations \autocite{escharts2024, newzoo2024}. This massive scale has transformed the professional LoL environment into a high-pressure ecosystem where regional leagues, such as the \textit{LEC} and \textit{LCS}, operate under rigorous commercial and performance demands. Unlike general gaming, the professionalization of LoL has led to career structures characterized by extreme psychological pressure, where a single micro-decision during high-stakes laning phases or teamfights can determine the outcome of multi-million dollar seasonal trajectories \autocite{poulus2021determinants, gong2020league}. Consequently, understanding and protecting the cognitive flow of players in this specific environment is no longer just a matter of leisure, but a critical requirement for professional sustainability.
+
+
+Consequently, professional organizations increasingly invest in structured training, physical conditioning, and psychological support to help players manage this pressure \autocite{poulus2021determinants}. This growth has motivated a broad research agenda focused on factors that shape performance and experience in competitive play. Central to this agenda is the maintenance of flow, as the high-speed information exchange and precision required in modern titles leave little margin for the cognitive disruptions caused by external notifications or internal stress \autocite{ubt_eref88160, cowley2008understanding}.
+
+% --- NEW ADDITION START ---
+Recent studies have identified that e-sports flow is not purely an individual phenomenon but is deeply tied to the "Actions Per Minute" (APM) and the physiological "tempo" of the game. For professional players, the "skill-challenge" balance is highly volatile; a single technical error or an unexpected strategic move by an opponent can instantly shift a player from a state of flow into a state of high-arousal stress, often referred to in the gaming community as "tilt." Therefore, an e-sports adaptive system must be more sensitive and responsive than a traditional office-based system, as the windows for intervention are much smaller \autocite{poulus2021determinants, banyai2019psychology}.
+% --- NEW ADDITION END ---
+
+From a game-design perspective, prior work highlights principles for supporting and maintaining flow during gameplay. For example, \textcite{cowley2008understanding} discuss flow in video games and emphasize the importance of aligning system demands with the player's evolving capabilities. In this view, the user--system experience should be designed so that new challenges are introduced at an appropriate pace, enabling players to build on previously learned information without unnecessary disruption \autocite{cowley2008understanding}.
+
+Another line of work investigates live, in-match feedback for LoL players based on telemetry data (e.g., via the Riot Games ecosystem) \autocite{riotgames_lol}. \textcite{10.1145/3549506} study how such feedback can be presented to support training, comparing physical feedback (e.g., light cues) with digital feedback on a secondary display. Their findings emphasize that real-time feedback must be highly contextualized: information that is useful early in a match (e.g., during the laning phase) may become irrelevant later as objectives, roles, and overall game state evolve \autocite{10.1145/3549506}.
+
+Related qualitative work further suggests that elite e-sports performance is shaped not only by individual skill, but also by contextual and social factors such as the coach--athlete relationship and team cohesion \autocite{poulus2021determinants}.
+
+
+\subsection{Flow Classification and Public Datasets}
+
+Research on classifying flow from physiological data has progressed from simpler, single-modality approaches toward richer multimodal pipelines that combine multiple sensors, feature sets, and modeling techniques \autocite{irshad2023wearable}. For instance, \textcite{9296229} demonstrate that flow can be classified from physiological signals in work settings using a machine-learning approach based on heart rate variability (HRV) features, providing empirical evidence that automatic flow recognition is feasible in both controlled and more naturalistic environments.
+
+Building on this direction, \textcite{irshad2023wearable} propose a wearable-based flow recognition approach and show that performance can benefit from combining modalities and from transfer learning, i.e., leveraging related affective information (such as emotion) to improve recognition when flow-labeled data are limited. This is particularly relevant for applied scenarios, where collecting large, well-labeled datasets under realistic conditions can be costly and may itself interfere with the experience being measured.
+
+% --- NEW ADDITION START ---
+The technical challenge in e-sports classification lies in the "signal-to-noise" ratio. Unlike static office work, gaming involves significant physical movement (keyboard and mouse usage), which introduces "motion artifacts" into EEG and heart-rate data. Modern research addresses this by utilizing "Data Fusion" techniques, where features from different sensors are weighted based on their reliability. For example, while EEG provides high-fidelity data on cognitive immersion, ECG/HRV data is often more robust against physical movement, making the combination of these modalities essential for a "shielding" system that must operate accurately in the "heat of battle" \autocite{irshad2023wearable, 9296229}.
+% --- NEW ADDITION END ---
+
+Beyond detecting flow as an outcome variable, recent work also explores how flow classification can be embedded into adaptive systems. For example, \textcite{ubt_eref88160} use functional near-infrared spectroscopy (fNIRS) and machine learning to distinguish between flow, boredom, and cognitive overload, and demonstrate the FlowShield concept: a physio-adaptive mechanism that uses real-time state inference to autonomously manage notifications in order to protect cognitive immersion.
+
+Taken together, these studies outline a research trajectory transitioning from the validation of physiological correlates toward the design of robust, real-time, physio-adaptive environments \autocite{9296229, irshad2023wearable, ubt_eref88160}. However, a critical synthesis of the current literature reveals that research specifically targeting flow and adaptive interventions in the e-sports domain remains remarkably scarce. While systems like \textit{FlowShield} have demonstrated success in office-related tasks \autocite{ubt_eref88160}, the unique demands of competitive gaming—characterized by extreme physiological arousal, rapid-fire decision-making, and specialized motor patterns—are not yet sufficiently addressed. Consequently, there is a significant research gap regarding how adaptive systems should be designed to support the fragile state of flow amidst the unique stressors of e-sports. Bridging this gap is essential to move beyond general classification models toward specialized, context-aware tools that can effectively assist e-sports athletes in maintaining peak performance.

@@ -101,11 +101,14 @@
 \setlist[itemize,2]{label=\raisebox{-0.2ex}{\scalebox{1.5}{\textopenbullet}}}
 \setlist[itemize,3]{label=\raisebox{0.3ex}{\scalebox{0.4}{\ding{110}}}}
 
-% For tables 
+% For tables
 \usepackage{tabularx}
 \usepackage{colortbl}
 \usepackage[table]{xcolor}
 \usepackage{longtable}
+\usepackage{ltablex}
+\keepXColumns
+\usepackage{float}
 \makeatletter
 \@ifpackagelater{longtable}{2026/01/01}{}{
   \patchcmd{\LT@output}{\copy\LT@foot\vss}{\copy\LT@foot\vskip 0pt plus 1fil minus \normalbaselineskip}{}{}
@@ -126,6 +129,7 @@
 \usepackage{chngpage}
 \usepackage{calc}
 \usepackage{pgfgantt}
+\usetikzlibrary{arrows.meta,positioning}
 
 % Spacing
 \usepackage{geometry}
@@ -171,7 +175,7 @@
 
 %\usepackage[english]{babel}
 
-
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
 
 \begin{document}
     \addtocontents{lof}{\vskip 14pt}
@@ -206,21 +210,7 @@
     \newpage
     \fontsize{10pt}{10pt}\selectfont
     \setstretch{1.5}
-    % List of Figures
-    \listoffigures
-    \addcontentsline{toc}{section}{List of Figures}
-    \thispagestyle{fancy}
-    \vspace{2em}
-    In a seminar thesis, a list of figures should only be included if \textbf{more than three figures} are included. 
-    \newpage
     
-    % List of Tables
-    \listoftables
-    \addcontentsline{toc}{section}{List of Tables}
-    \thispagestyle{fancy}
-    \vspace{2em}
-    In a seminar thesis, a list of tables should only be included if \textbf{more than three tables} are included. 
-    \newpage
 
     % List of Abbreviations 
     \section*{List of Abbreviations\\(only for Bachelor/Master thesis)}
@@ -236,42 +226,42 @@
         \input{chapters/01_introduction.tex}
 
     \clearpage    
-    \section{Foundations} 
+    \section{Foundation} 
         \input{chapters/02_foundations.tex}
 
     \clearpage  
-    \section{Related Work}
-        \input{chapters/03_related_work.tex}
+    \section{Method}
+        \input{chapters/03_research_method.tex}
 
     \clearpage  
-    \section{Research Method}
-        \input{chapters/04_research_method.tex}
+    \section{Problem Awareness}
+        \input{chapters/04_problem_awareness.tex}
 
     \clearpage  
-    \section{Results}
-        \input{chapters/05_results.tex}
+    \section{Design Suggestion}
+        \input{chapters/05_design_suggestion.tex}
+
+    \clearpage  
+    \section{Implementation}
+        \input{chapters/06_implementation.tex}
         
     \clearpage  
+    \section{Evaluation}
+        \input{chapters/07_evaluation.tex}
+
+    \clearpage  
     \section{Discussion}
-        \input{chapters/06_discussion.tex}
+        \input{chapters/08_discussion.tex}
 
     \clearpage  
     \section{Conclusion}
-        \input{chapters/07_conclusion.tex}
+        \input{chapters/09_conclusion.tex}
 
 
     % References
     \newpage
-    \section*{   References}
-    % You can delete this line ("\section*{References}) when you delete the text, as this line is only used to enable the text in front of the sources. Keep in mind, that you need to delete the "[heading=none]" a few lines below as well when you do this. 
+    \section*{References}
     \addcontentsline{toc}{section}{References}
-    Please use \textbf{APA 7\textsuperscript{th} edition} as citation style for your thesis.
-
-    \textbf{General information can be found here:} \href{https://apastyle.apa.org/}{\textcolor{red}{https://apastyle.apa.org/}} 
-    
-    \vspace{3em}
-    In the following, you will find a sample reference list as a guide:
-    \nocite{*} % Delete this when altering this template, this command allows to show every source in your library, even though it is not cited. It is used only for exemplary purposes.
     \printbibliography[heading=none]
 
     % Appendix
