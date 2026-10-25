@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sumatra Forward Search",
+            "type": "shell",
+            "command": "C:/Users/user/AppData/Local/SumatraPDF/SumatraPDF.exe",
+            "args": [
+                "-forward-search",
+                "${file}",
+                "${lineNumber}",
+                "-reuse-instance",
+                "${workspaceFolder}/main.pdf"
+            ],
+            "problemMatcher": [],
+            "group": "none",
+            "presentation": {
+                "reveal": "never",
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false
+            }
+        }
+    ]
+}
