@@ -158,6 +158,7 @@
 
 % Automatic generation of hyperlinks for references (ref / cite)
 \usepackage{hyperref}
+\usepackage{xurl}
 \hypersetup{
   hypertexnames = false,
   colorlinks   = true,    % Colours links instead of ugly boxes
@@ -222,39 +223,39 @@
     % Chapters
     \pagenumbering{arabic}   
     
-    \section{Introduction}
+    \section{Introduction}\label{chap:introduction}
         \input{chapters/01_introduction.tex}
 
-    \clearpage    
-    \section{Foundation} 
+    \clearpage
+    \section{Foundation}\label{chap:foundations}
         \input{chapters/02_foundations.tex}
 
-    \clearpage  
-    \section{Method}
+    \clearpage
+    \section{Method}\label{chap:method}
         \input{chapters/03_research_method.tex}
 
-    \clearpage  
-    \section{Problem Awareness}
+    \clearpage
+    \section{Problem Awareness}\label{chap:problem}
         \input{chapters/04_problem_awareness.tex}
 
-    \clearpage  
-    \section{Design Suggestion}
+    \clearpage
+    \section{Design Suggestion}\label{chap:design}
         \input{chapters/05_design_suggestion.tex}
 
-    \clearpage  
-    \section{Implementation}
+    \clearpage
+    \section{Implementation}\label{chap:implementation}
         \input{chapters/06_implementation.tex}
-        
-    \clearpage  
-    \section{Evaluation}
+
+    \clearpage
+    \section{Evaluation}\label{chap:evaluation}
         \input{chapters/07_evaluation.tex}
 
-    \clearpage  
-    \section{Discussion}
+    \clearpage
+    \section{Discussion}\label{chap:discussion}
         \input{chapters/08_discussion.tex}
 
-    \clearpage  
-    \section{Conclusion}
+    \clearpage
+    \section{Conclusion}\label{chap:conclusion}
         \input{chapters/09_conclusion.tex}
 
 

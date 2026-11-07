@@ -1,1 +1,16 @@
-% Conclusion\n\n
+This thesis addressed the design and implementation of a physio-adaptive system for detecting and supporting flow states in competitive \textit{League of Legends}. The work followed a sequential mixed-methods design in which qualitative requirements from interviews grounded the technical implementation.
+
+The research questions were:
+
+\begin{itemize}
+    \item \textbf{RQ1:} How can ECG and webcam-based data be utilized to accurately distinguish between high and low flow states in a competitive LoL environment?
+    \item \textbf{RQ2:} What are the specific design requirements and intervention mechanisms for a physio-adaptive system that effectively assists LoL players in maintaining their flow state?
+\end{itemize}
+
+For RQ1, the offline experiments showed that ECG-derived HRV features, after subject-level baseline correction, provide the strongest and most deployable signal. The best BIRAFFE2 configuration reached subject-level AUC = 0.677 (MLP) under median-split labeling and AUC = 0.790 (SVM) under extreme-percentile labeling. Cross-dataset support came from the Irshad/PhySF ECG-only RandomForest, which reached AUC = 0.712. Multimodal ECG+EDA+webcam models improved only marginally over well-tuned ECG-only models and were deemed too complex for a first live prototype. Webcam data are therefore retained for post-hoc reflection rather than online classification.
+
+For RQ2, ten grounded-theory requirements (AF-01 to AF-10) were derived from interviews with players, game-design experts, and physiological-computing experts. The implemented prototype addresses the reflection-oriented requirements (AF-05, AF-06, AF-09), the privacy requirement (AF-08), and the multimodal-sensing requirement (AF-03) in a limited but deployable form. Autonomous in-game interventions (AF-02, AF-04), pre-game readiness feedback (AF-01), personalization (AF-07), and team-mode support (AF-10) are explicitly deferred to future iterations.
+
+The resulting artifact is a local Windows companion app that streams ECG from a Polar H10 chest belt, runs an ensemble of five ECG-only classifiers, detects LoL matches via the local League Client API, and provides post-game feedback through a flow timeline, tilt/break recommendation, and replay-linked reflection prompts. The design prioritizes player agency, privacy, and competitive integrity over premature automation.
+
+In conclusion, the thesis demonstrates that a requirements-grounded, reflection-first physio-adaptive system is a viable first step toward real-time flow support in esports. It also highlights that the main remaining challenge is not feature engineering but the gap between offline cross-validation performance and reliable, person-independent live inference. Future work will close this gap through live data collection, personalization, and carefully validated real-time interventions.

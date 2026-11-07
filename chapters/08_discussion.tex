@@ -1,1 +1,48 @@
-% Discussion\n\subsection{Theoretical Contribution}\n\label{subsec:}\n\n\subsection{Novelty and Practical Relevance}\n\label{subsec:}\n\n\subsection{Limitations and Future Research}\n\label{subsec:}\n\n\n
+\subsection{Theoretical Contribution}
+
+This thesis contributes to the intersection of physiological computing, adaptive systems, and competitive gaming in three ways.
+
+First, it provides a \textbf{domain-specific requirements baseline} for flow-support systems in \textit{League of Legends}. By triangulating active players, game-design experts, and physiological-computing specialists through grounded-theory coding, the study identifies ten concrete requirements (AF-01 to AF-10) that go beyond generic flow theory. These requirements make the abstract concept of \enquote{flow support} actionable for system design.
+
+Second, the thesis adds \textbf{empirical evidence on the predictability of flow from ECG}. The offline experiments confirm prior work showing that HRV carries flow-related signal \autocite{9296229}, but they also highlight a critical methodological confound: subject-specific resting physiology can dominate between-subject HRV differences. The finding that baseline correction raises AUC from near-chance levels to 0.677 (and 0.790 in the extreme-percentile setting) is a methodological insight that should inform future wearable flow-detection studies.
+
+Third, the thesis proposes a \textbf{reflection-first design strategy} for adaptive systems in high-stakes competitive contexts. Rather than treating real-time autonomous intervention as the default end point, it argues that post-game reflection can be a valid first adaptive artifact when signal quality and competitive integrity concerns make in-game automation premature.
+
+\subsection{Novelty and Practical Relevance}
+
+The practical novelty lies in the end-to-end prototype: a local Windows app that streams ECG from a consumer chest belt, detects flow in real time, and links predictions to in-game events and replays. Existing systems such as FlowShield \autocite{ubt_eref88160} target office work with fNIRS and notification suppression; this thesis transfers the biocybernetic-loop idea to esports but adapts the intervention layer to the constraints of a closed game client and competitive play.
+
+For practitioners, the app offers a low-friction training companion. Players can review after a match \textit{when} they were likely in flow or tilt, correlate these states with kills, deaths, and objectives, and receive a data-informed break recommendation. Coaches could use aggregated session data to structure training and recovery routines. Because all data remain local, the system also addresses the privacy concerns that often block physiological monitoring in competitive teams.
+
+\subsection{Limitations}
+
+\subsubsection{Dataset and Labeling Limitations}
+
+The offline models are trained on secondary datasets. BIRAFFE2 uses a Space Invaders-style game, not LoL, and the flow labels are retrospective GEQ scores rather than continuous in-task reports. The levels-as-subjects design is an approximation because exact level boundaries are not always known; real game-log timestamps improve boundary accuracy but reduce class balance. Irshad/PhySF is small ($n=25$) and collected during work tasks, so cross-dataset generalization to LoL remains uncertain.
+
+\subsubsection{Signal-Quality Limitations}
+
+The best AUCs rely on baseline correction and extreme-percentile labeling. Real-world LoL sessions may not include a clean resting baseline, and the majority of matches will fall in the ambiguous middle range rather than the extremes. Single-trial, person-independent ECG classification during live LoL is therefore expected to be noisier than the offline benchmark.
+
+\subsubsection{Scope Limitations}
+
+The current prototype does not implement the most desired real-time interventions (notification suppression, audio attenuation, peripheral cues). These are explicitly deferred until the live signal is validated. The app also does not yet include the pre-game readiness widget (AF-01), player-specific threshold learning (AF-07), or team-mode dashboard (AF-10 team part).
+
+\subsubsection{Evaluation Limitations}
+
+The live-pilot evaluation has not yet been conducted. Claims about user acceptance, perceived accuracy, and practical fit are therefore design-grounded and require empirical validation in the next project phase.
+
+\subsection{Future Research}
+
+Four directions follow naturally from this work:
+
+\begin{enumerate}
+    \item \textbf{Live validation and personalization:} collect primary LoL data with continuous or post-match flow labels, and learn player- and role-specific thresholds rather than relying on cross-subject baselines.
+    \item \textbf{Real-time intervention escalation:} once the live signal is validated, implement and evaluate notification suppression, adaptive audio, or peripheral light cues in a way that preserves competitive integrity.
+    \item \textbf{Multimodal online fusion:} reintroduce webcam affect or additional physiological signals only when robust, low-latency online extraction is available and the added modality demonstrably improves live accuracy.
+    \item \textbf{Team and coach views:} extend the single-player dashboard to a team-mode view that respects player privacy while giving coaches aggregate flow-load information for training planning.
+\end{enumerate}
+
+\subsection{Summary}
+
+The thesis advances a grounded, reflection-first approach to flow-support systems in competitive esports. Its main contribution is not a perfect real-time classifier but a requirements-based prototype that balances physiological inference, player agency, privacy, and competitive integrity, while laying the technical and empirical foundation for future autonomous interventions.

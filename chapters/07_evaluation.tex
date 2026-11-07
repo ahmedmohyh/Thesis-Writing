@@ -1,1 +1,113 @@
-% Evaluation\n\subsection{What is an appropriate method for measuring the benefits and downsides of the new implementation?}\n\label{subsec:ww}\n\n\subsection{What are the data sources for doing this?}\n\label{subsec:}\n\n\subsection{How will the data be analyzed?}\n\label{subsec:ww}\n\n\subsection{What are the evaluation results?}\n\label{subsec:}\n\n\n
+\subsection{Evaluation Objectives}
+
+The evaluation pursues two objectives:
+
+\begin{enumerate}
+    \item \textbf{Objective performance check:} Verify that the offline classification pipeline reaches sufficient discriminative performance to justify live deployment.
+    \item \textbf{Subjective utility check:} Assess whether the live prototype and its post-game outputs are perceived as useful, trustworthy, and contextually appropriate by competitive LoL players.
+\end{enumerate}
+
+The first objective is addressed quantitatively through the offline benchmark reported in this chapter. The second objective will be addressed in a supervised live-pilot study with the Polar H10 chest belt, scheduled to take place in approximately two weeks. The structure below prepares every section so that the empirical results can be inserted once available.
+
+\subsection{Quantitative Baseline Assessment}
+
+\subsubsection{Metrics}
+
+Models are evaluated with leave-one-subject-out (LOSO) cross-validation on the secondary datasets. The metrics used are:
+
+\begin{itemize}
+    \item \textbf{Accuracy:} proportion of correctly classified subject-level windows.
+    \item \textbf{F1-score:} harmonic mean of precision and recall, suitable for imbalanced classes.
+    \item \textbf{AUC:} area under the ROC curve at the subject-aggregate level, reflecting discriminative ability independent of threshold.
+    \item \textbf{Inference latency:} time to classify one 60-second window, relevant for real-time deployment.
+\end{itemize}
+
+\subsubsection{Offline Results to Insert}
+
+The key offline results are summarized in Table~\ref{tab:main_results}. After the live pilot, the following subsections should be added:
+
+\begin{itemize}
+    \item \textbf{Confusion-matrix analysis:} per-class precision/recall for the exported models.
+    \item \textbf{Feature-importance summary:} which HRV features drive predictions.
+    \item \textbf{Model-selection justification:} why the five-model ensemble was chosen for deployment.
+\end{itemize}
+
+\subsection{Live Pilot: Design and Protocol}
+
+The live-pilot evaluation will be conducted in a supervised lab setting. Participants will wear the Polar H10 chest belt and play one or more \textit{League of Legends} matches while the Flow-LoL app runs in the background. Webcam recording is optional and serves only post-hoc reflection.
+
+\subsubsection{Participants}
+
+\begin{itemize}
+    \item Target group: Tier 2 competitive LoL players (Diamond+).
+    \item Planned sample size: [to be inserted].
+    \item Recruitment channel: [to be inserted].
+\end{itemize}
+
+\subsubsection{Procedure}
+
+\begin{enumerate}
+    \item \textbf{Pre-session briefing:} informed consent, explanation of local data handling, and H10 fitting.
+    \item \textbf{Baseline recording:} short resting segment to document individual HRV baseline.
+    \item \textbf{Gameplay phase:} participants play ranked or custom LoL matches while the app records ECG and in-game events.
+    \item \textbf{Post-game review:} participant inspects the dashboard (flow timeline, event markers, break recommendation, replay links).
+    \item \textbf{Semi-structured interview:} feedback on perceived accuracy, usefulness, trust, and suggestions.
+\end{enumerate}
+
+\subsubsection{Materials to Insert}
+
+\begin{itemize}
+    \item Recruitment flyer / information sheet.
+    \item Consent form.
+    \item Interview guideline (semi-structured questions).
+    \item Participant demographic table.
+\end{itemize}
+
+\subsection{Qualitative Evaluation Framework}
+
+The follow-up interviews are structured around the qualitative requirements (AF-01 to AF-10) and assess four dimensions:
+
+\begin{enumerate}
+    \item \textbf{Perceived flow-detection accuracy:} Does the timeline match the player's own flow/tilt perception?
+    \item \textbf{Utility of post-game outputs:} Are the break recommendation, event markers, and replay links helpful?
+    \item \textbf{Trust and transparency:} Is the local-only processing acceptable? Is the feedback understandable?
+    \item \textbf{Readiness for real-time interventions:} Under what conditions would the player accept autonomous adaptations in the future?
+\end{enumerate}
+
+\subsection{Results Sections to Fill After the Live Pilot}
+
+\subsubsection{Descriptive Statistics}
+
+\begin{itemize}
+    \item Number of matches recorded.
+    \item Average session duration.
+    \item Sensor connection quality (dropouts, artifacts).
+    \item Distribution of predicted flow versus non-flow windows.
+\end{itemize}
+
+\subsubsection{Subjective Evaluation Results}
+
+\begin{itemize}
+    \item Summary of interview themes (coded with the same GTM workflow as Phase 1).
+    \item Representative quotes per dimension.
+    \item Degree of requirement fulfillment (AF-01 to AF-10).
+\end{itemize}
+
+\subsubsection{Triangulation}
+
+\begin{itemize}
+    \item Comparison of offline model confidence with subjective flow reports.
+    \item Convergences and divergences between physiological signal and player experience.
+\end{itemize}
+
+\subsection{Limitations of the Evaluation}
+
+\begin{itemize}
+    \item Offline models are trained on secondary datasets with retrospective labels; generalization to live LoL is not guaranteed.
+    \item The planned live-pilot sample may be small and regionally constrained.
+    \item Self-reported flow/tilt remains subjective and may be influenced by match outcome.
+\end{itemize}
+
+\subsection{Summary}
+
+The quantitative baseline supports the design decision to deploy an ECG-only ensemble. The live pilot, conducted in approximately two weeks, will provide the subjective evidence needed to judge whether the reflection-first prototype fulfills its grounded-theory requirements and is accepted by competitive players.

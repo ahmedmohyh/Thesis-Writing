@@ -1,1 +1,89 @@
-% Design Suggestion\n\subsection{How should the new system look?}\n\label{subsec:ww}\n\n\n
+\subsection{From Qualitative Requirements to Design Principles}
+
+The grounded-theory analysis of the player and expert interviews produced ten adaptive-system requirements (AF-01 to AF-10). They can be grouped into four design concerns that shape the prototype:
+
+\begin{itemize}
+    \item \textbf{Sensing and multimodality (AF-03):} The system should combine non-intrusive physiological sensing with behavioral cues, but without disturbing competitive play.
+    \item \textbf{Preparation and personalization (AF-01, AF-07, AF-10):} Players want readiness feedback before a match and personal or team-aware thresholds, yet these require longitudinal data that are not available at first deployment.
+    \item \textbf{In-game protection (AF-02, AF-04):} Disturbance reduction and communication-safe interventions are highly desired, but they are also the most sensitive because any wrong autonomous action can hurt performance.
+    \item \textbf{Post-game reflection (AF-05, AF-06, AF-09):} Players and experts strongly value looking back at a match, linking flow episodes to in-game events, and receiving actionable recovery advice.
+    \item \textbf{Privacy and transparency (AF-08):} All processing should remain local, and the player must retain full control over data and deletion.
+\end{itemize}
+
+These requirements conflict in one important way: the most desired real-time protections (AF-02, AF-04) are also the riskiest to deploy when classification performance is still modest. The design therefore follows a \textbf{reflection-first strategy}: the first deployable artifact is a post-game companion that still generates the flow state signal needed for future real-time interventions, but uses that signal first in a safe, inspectable, and overrideable form. This decision is consistent with the measurement-paradox argument in flow research \autocite{9296229}: any interruption during play risks breaking the very state the system is meant to protect. Post-game feedback avoids that paradox while still creating value for training and self-regulation.
+
+\subsection{Design Principles}
+
+From the requirements, five design principles are derived:
+
+\begin{enumerate}
+    \item \textbf{ECG-first runtime, multimodal offline.} Real-time inference is restricted to ECG-derived HRV features, because offline experiments show that ECG-only models with baseline correction provide the strongest and most reproducible discriminative signal. Webcam and EDA remain part of the offline benchmark and the recorded session, but not of the live classifier.
+    \item \textbf{Ensemble rather than single model.} No single model dominates across validation folds. A hard majority vote across five ECG-only models (three BIRAFFE2, one Irshad, one MLP) increases robustness and makes failure modes more visible.
+    \item \textbf{Post-game, not in-game, feedback.} Timeline, break recommendation, and replay integration are implemented first. Autonomous notification or audio attenuation is deferred to a future iteration.
+    \item \textbf{Local-first and privacy-preserving.} BLE ECG streaming, SQLite persistence, MP4 webcam recording, and the League Client API run entirely on the local machine. No external API key or cloud upload is required.
+    \item \textbf{Player agency by default.} Every automated action (match detection, webcam recording, model inference) can be started, stopped, or overridden manually in the GUI.
+\end{enumerate}
+
+\subsection{Targeted System Architecture}
+
+The resulting system is a Windows desktop companion application built with PyQt6 and packaged via PyInstaller and Inno Setup. It follows a three-layer architecture that mirrors the biocybernetic loop introduced in Chapter~\ref{chap:foundations}:
+
+\begin{itemize}
+    \item \textbf{Sensing layer:} Polar H10 BLE ECG streaming, optional webcam recording, and local League Client API polling.
+    \item \textbf{Inference layer:} 60-second sliding windows, HRV feature extraction, and the five-model ECG-only ensemble.
+    \item \textbf{Adaptation layer:} Post-game dashboard with flow timeline, event markers, tilt/break recommendation, and replay linking.
+\end{itemize}
+
+This architecture is intentionally narrow in its live sensing path but broad in its reflection outputs. It satisfies the requirement to deliver a working, testable artifact in the lab study while keeping the door open for the deferred real-time interventions once the signal quality is validated with live players.
+
+\subsection{Mapping Requirements to Implemented Features}
+
+Table~\ref{tab:req_mapping} maps each AF requirement to the concrete feature or future hook in the prototype.
+
+\begin{table}[htbp]
+    \centering
+    \scriptsize
+    \caption{Mapping of AF requirements to implemented prototype features.}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabularx}{\linewidth}{|l|L|L|}
+        \hline
+        \rowcolor{black}
+        \textbf{\color{white} Requirement} & \textbf{\color{white} Concern} & \textbf{\color{white} Prototype realization} \\
+        \hline
+        AF-01 Pre-game readiness & Preparation & Future hook; app captures baseline trend but no autonomous warm-up recommendation yet \\
+        \hline
+        AF-02 Disturbance reduction & In-game protection & Deferred to Phase 10; tray-icon hook prepared \\
+        \hline
+        AF-03 Multimodal sensing & Sensing & ECG for live inference; webcam/EDA recorded offline \\
+        \hline
+        AF-04 Communication-safe intervention & In-game protection & Deferred; dashboard shows safe, non-overlapping status only \\
+        \hline
+        AF-05 Post-game timeline & Reflection & Implemented: flow trajectory + kill/death/objective markers \\
+        \hline
+        AF-06 Replay integration & Reflection & Implemented: \texttt{.rofl} scanning, linking, and reflection prompts \\
+        \hline
+        AF-07 Personal thresholds & Personalization & Future hook; data collected for offline learning \\
+        \hline
+        AF-08 Privacy and transparency & Privacy & Implemented: local processing, storage view, per-session deletion \\
+        \hline
+        AF-09 Tilt/break recommendation & Reflection & Implemented: rule-based post-match advice \\
+        \hline
+        AF-10 Team-mode detection & Personalization & Partially implemented: queue type via LCU API \\
+        \hline
+    \end{tabularx}
+    \label{tab:req_mapping}
+\end{table}
+
+\subsection{Rationale for the Reflection-First Scope}
+
+Three arguments justify the decision to ship reflection features before autonomous in-game interventions:
+
+\begin{enumerate}
+    \item \textbf{Signal quality.} The best offline AUC on the BIRAFFE2 deployment-relevant path is 0.677 (Setup 12, MLP, normal median split) and 0.790 in the extreme-percentile setting, but these numbers come from a pseudo-subject design that is closer to leave-one-level-out than to true cross-person generalization. Real-time, person-independent flow detection from a single ECG stream is therefore not yet reliable enough to autonomously alter the player's competitive environment.
+    \item \textbf{Competitive integrity.} Interviews with game-design experts emphasized that any automated change to audio, visual, or communication channels during ranked play could be perceived as unfair or distracting. Reflection features do not touch the game client and therefore avoid competitive-integrity concerns.
+    \item \textbf{Grounded-theory alignment.} Several player interviews described the value of \enquote{looking back} at a match to understand tilt and flow. Post-game feedback therefore addresses a genuine user need identified in Phase 1, rather than being a technical compromise.
+\end{enumerate}
+
+\subsection{Summary}
+
+The design suggestion translates the ten qualitative requirements into a concrete, deployable prototype. The core decision is a \textbf{reflection-first, ECG-only companion app} that uses a five-model ensemble for live inference and exposes the results through a post-game dashboard. Autonomous in-game interventions are explicitly deferred to a later iteration, but the architecture and requirement mapping preserve the path toward them.
